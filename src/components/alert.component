@@ -1,0 +1,6 @@
+<apex:component access="global">
+    <apex:attribute name="type" type="String" description="Styling of the panel. The values can be info,success,primary,warning,danger" default="info" access="global" required="true"/>
+    <div class="alert alert-{!type}">
+        <apex:componentBody />
+    </div>
+</apex:component>

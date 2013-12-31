@@ -1,0 +1,5 @@
+<apex:component layout="none" access="global">
+    <apex:outputPanel layout="block" styleClass="row">
+        <apex:componentBody />
+    </apex:outputPanel>
+</apex:component>

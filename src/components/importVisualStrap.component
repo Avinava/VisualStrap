@@ -1,0 +1,5 @@
+<apex:component selfClosing="true" access="global">
+    <apex:includeScript value="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"/>
+    <apex:includeScript value="{!URLFOR($Resource.VisualStrap_Resources, 'js/bootstrap.min.js')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.VisualStrap_Resources, 'css/visualstrap.css')}" />
+</apex:component>

@@ -1,0 +1,5 @@
+<apex:component layout="none" access="global">   
+    <span class="badge">
+        <apex:componentBody />
+    </span>
+</apex:component>

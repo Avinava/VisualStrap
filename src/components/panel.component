@@ -1,0 +1,14 @@
+<apex:component access="global">
+    
+    <apex:attribute name="title" type="String" description="Title that will be used in panel" access="global"/>
+    <apex:attribute name="type" type="String" description="Styling of the panel. The values can be default,success,primary,warning,danger" default="default" access="global"/>
+    
+    <div class="panel panel-{!LOWER(type)}">
+        <div class="panel-heading">
+            <h3 class="panel-title">{!title}</h3>
+        </div>
+        <div class="panel-body">
+            <apex:componentBody />
+        </div>
+    </div>
+</apex:component>

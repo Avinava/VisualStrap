@@ -1,0 +1,5 @@
+<apex:component selfClosing="false" access="global">
+    <apex:outputPanel styleClass="visualstrap">
+        <apex:componentBody />
+    </apex:outputPanel>
+</apex:component>

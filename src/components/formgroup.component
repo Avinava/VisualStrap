@@ -1,0 +1,6 @@
+<apex:component layout="none" access="global">
+    <div class="form-group">
+        <apex:componentBody />
+    </div>
+    
+</apex:component>

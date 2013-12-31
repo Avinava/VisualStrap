@@ -1,0 +1,6 @@
+<apex:component access="global">
+    <apex:attribute name="type" type="String" description="Label component for VF" default="default"/>    
+    <span class="label label-{!type}">
+        <apex:componentBody />
+    </span>
+</apex:component>

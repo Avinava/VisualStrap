@@ -1,0 +1,5 @@
+<apex:component access="global">
+    <div class="well">
+        <apex:componentBody />
+    </div>
+</apex:component>

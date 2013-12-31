@@ -1,0 +1,6 @@
+<apex:component layout="none" access="global">
+    <apex:attribute type="String" name="type" description="Grid classes from Bootstrap3" access="global" required="true"/>
+    <apex:outputPanel styleClass="{!type}" layout="block">
+        <apex:componentBody />
+    </apex:outputPanel>
+</apex:component>

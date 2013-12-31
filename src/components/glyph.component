@@ -1,0 +1,4 @@
+<apex:component selfClosing="true" layout="none" access="global">
+    <apex:attribute name="icon" type="String" description="Name of the icon that you want to use" access="global" required="true"/>
+    <span class="glyphicon glyphicon-{!icon}"></span>
+</apex:component>
