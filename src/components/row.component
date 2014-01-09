@@ -1,5 +1,6 @@
 <apex:component layout="none" access="global">
-    <apex:outputPanel layout="block" styleClass="row">
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <apex:outputPanel layout="block" styleClass="row" style="{!style}">
         <apex:componentBody />
     </apex:outputPanel>
 </apex:component>

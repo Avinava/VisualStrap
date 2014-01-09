@@ -1,5 +1,6 @@
 <apex:component layout="none" access="global">   
-    <span class="badge">
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <span class="badge" style="{!style}">
         <apex:componentBody />
     </span>
 </apex:component>

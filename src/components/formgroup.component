@@ -1,5 +1,6 @@
 <apex:component layout="none" access="global">
-    <div class="form-group">
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <div class="form-group" style="{!style}">
         <apex:componentBody />
     </div>
     

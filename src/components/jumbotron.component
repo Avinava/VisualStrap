@@ -1,5 +1,6 @@
 <apex:component access="global">
-    <apex:outputPanel layout="block" styleClass="jumbotron">
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <apex:outputPanel layout="block" styleClass="jumbotron" style="{!style}">
         <apex:componentBody />
     </apex:outputPanel>
 </apex:component>

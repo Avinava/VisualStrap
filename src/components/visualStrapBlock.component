@@ -1,5 +1,6 @@
 <apex:component selfClosing="false" access="global">
-    <apex:outputPanel styleClass="visualstrap">
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <apex:outputPanel styleClass="visualstrap" style="{!style}">
         <apex:componentBody />
     </apex:outputPanel>
 </apex:component>

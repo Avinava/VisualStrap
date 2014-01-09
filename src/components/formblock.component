@@ -1,6 +1,7 @@
 <apex:component access="global">
     <apex:attribute name="alignment" type="String" access="global" default="horizontal" description="Set 'horizontal' to arrange all the residing input-group vertical, set 'verical' to align them vertically"/>
-    <apex:outputPanel layout="block" styleClass="form-{!alignment}">
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <apex:outputPanel layout="block" styleClass="form-{!alignment}" style="{!style}">
         <apex:componentBody />
     </apex:outputPanel>
 </apex:component>
