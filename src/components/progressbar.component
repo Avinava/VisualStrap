@@ -1,0 +1,14 @@
+<apex:component access="global" layout="none" selfClosing="true">
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
+    <apex:attribute name="minvalue" type="double" description="The minimum value for the progress bar. Default is 0" access="global" default="0" required="false"/>
+    <apex:attribute name="maxvalue" type="double" description="The maximum value for the progress bar Default is 100" access="global" default="100" required="false"/>
+    <apex:attribute name="value" type="double" description="The current value for the progress bar" access="global" required="true"/>
+    <apex:attribute name="type" type="String" description="Styling of the panel. The values can be default,success,primary,info,warning,danger" default="default" access="global"/>
+    <apex:attribute name="striped" type="boolean" description="Uses a gradient to create a striped effect" default="false" access="global" required="false"/>
+    <apex:attribute name="animated" type="boolean" description="Animates a stripe from left to right" default="false" access="global" required="false"/>
+    
+    <div class="progress {!styleclass} {!IF(striped || animated,'progress-striped','')} {!IF(animated,'active','')}" style="{!style}">
+        <div class="progress-bar progress-bar-{!type}" role="progressbar" aria-valuenow="{!value}" aria-valuemin="{!minvalue}" aria-valuemax="{!maxvalue}" style="width: {!((value - minvalue)/(maxvalue - minvalue))*100}%;"/>
+    </div>
+</apex:component>

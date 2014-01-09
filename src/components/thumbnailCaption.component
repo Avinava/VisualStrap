@@ -1,5 +1,6 @@
 <apex:component access="global">
-    <apex:outputPanel layout="block" styleClass="caption">
+    <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
+    <apex:outputPanel layout="block" styleClass="caption {!styleclass}">
         <apex:componentBody />
     </apex:outputPanel>
 </apex:component>

@@ -1,0 +1,14 @@
+<apex:component selfClosing="true" layout="none" access="global">
+    
+    <apex:attribute name="icon" type="String" description="Name of the icon that you want to use with the title" access="global" required="false"/>
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
+    <apex:attribute name="title" type="String" description="The text displayed as main title" access="global" required="false"/>
+    <apex:attribute name="subtitle" type="String" description="The text displayed just under the main title" access="global" required="false"/>
+
+    <div class="page-header {!styleclass}" style="{!style}">  
+        <h2>  
+            <c:glyph icon="{!icon}"/> {!title} <small> {!subtitle} </small>  
+        </h2>  
+    </div>
+</apex:component>

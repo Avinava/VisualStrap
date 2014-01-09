@@ -17,11 +17,16 @@ What you get with this version of VisualStrap ?
 * Thumbnails
 * Column and Row (Grid) 
 * Tables
+* Buttons (new)
+* ButtonGroup (new)
+* ButtonToolBar (new)
+* Pageheader (new)
+* Progressbar (new)
 
 Version
 -
 
-1.2
+1.3
 
 
 Demo / Installation / Documentation

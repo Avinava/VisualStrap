@@ -1,6 +1,8 @@
-<apex:component access="global">
+<apex:component access="global" layout="none">
     <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
-    <div class="well" style="{!style}">
+    <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
+
+    <div class="well {!styleclass}" style="{!style}">
         <apex:componentBody />
     </div>
 </apex:component>
