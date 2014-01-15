@@ -7,6 +7,8 @@
     <types>
         <members>alert</members>
         <members>badge</members>
+        <members>buttongroup</members>
+        <members>buttontoolbar</members>
         <members>column</members>
         <members>formblock</members>
         <members>formgroup</members>
@@ -14,10 +16,17 @@
         <members>importvisualstrap</members>
         <members>jumbotron</members>
         <members>label</members>
+        <members>listgroup</members>
+        <members>listgroupitem</members>
+        <members>modal</members>
+        <members>navbar</members>
+        <members>pageheader</members>
         <members>panel</members>
+        <members>progressbar</members>
         <members>row</members>
         <members>thumbnail</members>
         <members>thumbnailcaption</members>
+        <members>tooltip</members>
         <members>visualstrapblock</members>
         <members>well</members>
         <name>ApexComponent</name>

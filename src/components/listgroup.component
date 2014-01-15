@@ -1,0 +1,8 @@
+<apex:component access="global" layout="none">
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
+
+    <ul class="list-group {!styleclass}" style="{!style}">
+        <apex:componentBody />
+    </ul>
+</apex:component>

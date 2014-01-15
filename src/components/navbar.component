@@ -1,0 +1,52 @@
+<apex:component selfClosing="false" access="global">
+    
+    <apex:attribute name="inverse" description="Set true to use the inverse styling" type="boolean" default="false" access="global"/>
+    <apex:attribute name="type" description="Navbar can be of different type static-top,fixed-top,fixed-bottom,fixed-bottom" type="string" default="static-top" access="global"/>
+    <apex:attribute name="homepagelink" description="show homepage link" type="string" access="global"/>
+    <apex:attribute name="logo" description="The logo to be display on the navbar" type="string" access="global"/>
+    <apex:attribute name="brand" description="The main header text to be displayed on the navbar" type="string" access="global"/>
+    <apex:attribute name="layout" description="Set the layout of the navbar, you can set it to 'default' or 'none'.When layout is set to none the navbar doesn't style itself and ignores homepagelink,brand and logo attributes, in this layout you can create your own styling" default="default" type="string" access="global"/>
+    
+    
+    <nav class="navbar navbar-{!type} {!IF(inverse,'navbar-inverse','navbar-default')}">
+      
+      <apex:outputPanel styleClass="container" layout="block">
+        <apex:outputPanel styleClass="navbar-header" layout="block" rendered="{!layout != 'none'}">
+            <apex:outputPanel layout="block">
+                <apex:outputLink style="display:block" styleClass="navbar-brand" value="{!homepagelink}" rendered="{!NOT(ISNULL(logo))}">
+                    <apex:image value="{!logo}" style="max-height:45px"/>
+                </apex:outputLink>
+                <apex:outputLink styleClass="navbar-brand" style="display:block" value="{!homepagelink}" rendered="{!NOT(ISNULL(brand)) && ISNULL(logo)}">
+                    {!brand}
+                </apex:outputLink> 
+            </apex:outputPanel>          
+        </apex:outputPanel>
+        <div class="{!IF(layout != 'none','navbar-collapse collapse','')}">
+          <div class="{!IF(layout != 'none','nav navbar-nav navbar-right','')}">
+            <div class="rightBar">
+                <apex:componentBody /> 
+            </div>
+          </div>
+        </div>
+      </apex:outputPanel>
+    </nav>  
+    <style>
+        .visualstrap .navbar-inverse .navbar-nav .rightBar {
+            color: #999999;
+            padding-top: {!IF(NOT(ISNULL(logo)),'25','15')}px;
+            padding-bottom: {!IF(NOT(ISNULL(logo)),'25','15')}px;
+            font-size : {!IF(NOT(ISNULL(logo)),'123%','100%')};
+        }
+        
+        .navbar-default .navbar-nav .rightBar {
+            color: #777;
+            padding-top: {!IF(NOT(ISNULL(logo)),'25','15')}px;
+            padding-bottom: {!IF(NOT(ISNULL(logo)),'25','15')}px;
+            font-size: {!IF(NOT(ISNULL(logo)),'123%','100%')};
+        }
+        
+        {!IF(type == 'fixed-top',IF(NOT(ISNULL(logo)) && layout != 'none' ,'body { padding-top: 100px; }','body { padding-top: 70px; }'),'')} 
+        {!IF(type == 'fixed-bottom',IF(NOT(ISNULL(logo)) && layout != 'none','body { padding-bottom: 100px; }','body { padding-bottom: 70px; }'),'')} 
+        
+    </style>
+</apex:component>

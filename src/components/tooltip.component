@@ -1,0 +1,11 @@
+<apex:component layout="none" access="global">
+    
+    <apex:attribute name="text" type="String" description="Tooltip text that needs to be displayed" access="global" required="false"/>
+    
+    <apex:outputPanel layout="inline" html-data-toggle="tooltip" title="{!text}" styleClass="tooltipComponent">
+        <apex:componentBody />
+    </apex:outputPanel>
+    <script>
+        $('.tooltipComponent').tooltip();
+    </script>
+</apex:component>

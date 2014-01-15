@@ -1,0 +1,20 @@
+<apex:component access="global" layout="none" allowDML="true">
+    <apex:attribute name="id" type="String" description="Unique id used to refer the modal" access="global" required="false"/>
+    <apex:attribute name="title" type="String" description="The text displayed as modal title" access="global" required="false"/>
+    <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
+    <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
+    
+    <div class="modal fade" id="{!id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">{!title}</h4>
+          </div>
+          <div class="modal-body">
+              <apex:componentBody />
+          </div>
+        </div>
+      </div>
+    </div>
+</apex:component>

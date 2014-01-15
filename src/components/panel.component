@@ -6,11 +6,11 @@
 
     
     <div class="panel panel-{!LOWER(type)} {!styleclass}">
-        <div class="panel-heading">
+        <apex:outputPanel layout="block" rendered="{!NOT(ISNULL(title))}" styleClass="panel-heading">
             <h3 class="panel-title">{!title}</h3>
-        </div>
+        </apex:outputPanel>
         <div class="panel-body">
-            <apex:componentBody />
+            <apex:componentBody /> 
         </div>
     </div>
 </apex:component>
