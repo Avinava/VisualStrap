@@ -22,11 +22,16 @@ What you get with this version of VisualStrap ?
 * ButtonToolBar (new)
 * Pageheader (new)
 * Progressbar (new)
+* Tooltip (new in v1.4)
+* List Group and List Group Item (new in v1.4)
+* Modal (new in v1.4)
+* Navbar (new in v1.4)
+
 
 Version
 -
 
-1.3
+1.4
 
 
 Demo / Installation / Documentation
