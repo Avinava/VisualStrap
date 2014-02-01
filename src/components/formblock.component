@@ -5,7 +5,7 @@
     <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
 
     
-    <apex:outputPanel layout="block" styleClass="form-{!alignment} {!styleclass}" style="{!style}">
+    <apex:outputPanel layout="block" styleClass="form-{!LOWER(alignment)} {!styleclass}" style="{!style}">
         <apex:componentBody />
     </apex:outputPanel>
 </apex:component>
