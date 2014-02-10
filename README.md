@@ -31,7 +31,7 @@ What you get with this version of VisualStrap ?
 Version
 -
 
-1.4
+1.51
 
 
 Demo / Installation / Documentation
