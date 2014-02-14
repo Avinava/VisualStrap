@@ -31,7 +31,11 @@ What you get with this version of VisualStrap ?
 Version
 -
 
-1.51
+1.53
+
+Changes
+-
+v1.53 : Added support for 3 new themes 'flatly','lumen' and 'superhero'. 
 
 
 Demo / Installation / Documentation
