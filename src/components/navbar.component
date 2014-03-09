@@ -33,15 +33,15 @@
     <style>
         .visualstrap .navbar-inverse .navbar-nav .rightBar {
             color: #999999;
-            padding-top: {!IF(NOT(ISNULL(logo)),'25','15')}px;
-            padding-bottom: {!IF(NOT(ISNULL(logo)),'25','15')}px;
+            padding-top: {!IF(NOT(ISNULL(logo)),'15','8')}px;
+            padding-bottom: {!IF(NOT(ISNULL(logo)),'15','8')}px;
             font-size : {!IF(NOT(ISNULL(logo)),'123%','100%')};
         }
         
         .navbar-default .navbar-nav .rightBar {
             color: #777;
-            padding-top: {!IF(NOT(ISNULL(logo)),'25','15')}px;
-            padding-bottom: {!IF(NOT(ISNULL(logo)),'25','15')}px;
+            padding-top: {!IF(NOT(ISNULL(logo)),'15','8')}px;
+            padding-bottom: {!IF(NOT(ISNULL(logo)),'15','8')}px;
             font-size: {!IF(NOT(ISNULL(logo)),'123%','100%')};
         }
         
