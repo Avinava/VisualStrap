@@ -1,0 +1,16 @@
+<apex:component access="global">
+    <apex:attribute name="icon" type="string" description="icon to be used" access="global"/>
+    <apex:attribute name="title" type="string" description="Title to be used" access="global"/>
+    <apex:attribute name="subtitle" type="string" description="Subtitle to be used" access="global"/>
+    <div class="well">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="glyphicon glyphicon-{icon}"/>
+            </div>
+            <div class="col-md-8">
+                <h2>{!title}</h2>
+                <p class="text-muted infolabel">{!subtitle}</p>
+            </div>
+        </div>
+    </div>               
+</apex:component>
