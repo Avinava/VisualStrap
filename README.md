@@ -31,11 +31,13 @@ What you get with this version of VisualStrap ?
 Version
 -
 
-1.53
+1.54
 
 Changes
 -
 v1.53 : Added support for 3 new themes 'flatly','lumen' and 'superhero'. Themes can be set in importvisualstrap component by setting the 'theme' attribute.
+
+v1.54 : Fixes for lumen theme and many other css fixes.
 
 
 Demo / Installation / Documentation
