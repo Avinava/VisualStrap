@@ -1,6 +1,0 @@
-<apex:component access="global">
-    <apex:attribute access="global" name="type" default="success" type="string" description="contextual styling, values can be danger,warning,info,success"/>
-    <apex:outputPanel layout="block" styleClass="glow-{!type}">
-        <apex:componentBody />
-    </apex:outputPanel>
-</apex:component>
