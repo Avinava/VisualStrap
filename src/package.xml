@@ -10,9 +10,9 @@
         <members>column</members>
         <members>formblock</members>
         <members>formgroup</members>
-        <members>glow</members>
         <members>glyph</members>
-        <members>highlightbox</members>
+        <members>grid</members>
+        <members>griditem</members>
         <members>importvisualstrap</members>
         <members>jumbotron</members>
         <members>label</members>

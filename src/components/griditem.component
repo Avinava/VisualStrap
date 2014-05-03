@@ -1,0 +1,16 @@
+<apex:component access="global" layout="none">
+    <apex:attribute name="icon" type="String" description="The icon to be used for the grid" access="global"/>
+    <apex:attribute name="hover" type="boolean" description="set true if you want to enable hover effect" default="true" access="global"/>
+    <apex:attribute name="title" type="String" description="The text displayed as main title" access="global" required="false"/>
+    <apex:attribute name="subtitle" type="String" description="The text displayed just under the main title" access="global" required="false"/>
+    <apex:attribute name="onclick" type="String" description="The JavaScript function called when the griditem is clicked" access="global" required="false"/>
+    
+    <li class="{!IF(hover,'hover','')}" style="{!IF(ISNULL(onclick),'','cursor:pointer')}">
+        <apex:outputPanel layout="block" onclick="{!onclick}">
+            <apex:outputPanel styleClass="glyphicon glyphicon-{!icon}"></apex:outputPanel>
+            <apex:outputPanel styleClass="gridtext">{!title}</apex:outputPanel>
+            <small class="text-muted" style="display:block">{!subtitle}</small>
+        </apex:outputPanel>
+        <apex:componentBody />
+    </li>
+</apex:component>
