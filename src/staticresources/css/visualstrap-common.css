@@ -1,0 +1,67 @@
+.btn-standard{
+    color: #333;
+    margin: 1px;
+    padding: 2px 3px;
+    border: 1px solid #b5b5b5 !important;
+    border-bottom-color: #7f7f7f !important;
+    background: #e8e8e9 url('/img/alohaSkin/btn_sprite.png') repeat-x right top !important;
+    font-weight: bold;
+    font-size: .9em !important;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.mainTitle{
+    font-weight: bold;
+}
+
+.grid li {
+    float: left;
+    width: 25%;
+    min-height: 115px;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #f9f9f9;
+}
+
+.grid{
+    margin-left:0;
+    margin-right:0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.grid li.hover:hover {
+    color: #fff;
+    background-color: #2980b9;
+    font-weight:bold;       
+}
+
+.grid .glyphicon{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.grid small{
+    word-wrap: break-word;
+}
+
+.gridtext{
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+@media (min-width:768px){
+    .grid li{
+        margin-left:0;
+        margin-right:0;
+        width:12.5%;
+        font-size:14px
+    }
+}
