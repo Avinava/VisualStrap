@@ -43,10 +43,12 @@ v1.54 : Fixes for lumen theme and many other css fixes.
 Demo / Installation / Documentation
 --------------
 
-* .http://blogforce9dev-developer-edition.ap1.force.com/ProjectDetail?id=a0290000009MI61
+* http://blogforce9dev-developer-edition.ap1.force.com/ProjectDetail?id=a0290000009MI61
 
 Examples
 -
-Examples can be found here *https://github.com/Avinava/VisualStrap-Examples
+Examples can be found here 
+* https://github.com/Avinava/VisualStrap-Examples
+* https://github.com/Avinava/Visualstrap-Salesforce1-VSDashboard
 
 
