@@ -1,0 +1,5977 @@
+.visualstrap-superhero {
+  @import url("//fonts.googleapis.com/css?family=Lato:300,400,700");
+  /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+}
+.visualstrap-superhero .navbar {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  font-size: 12px;
+}
+.visualstrap-superhero .btn {
+  font-weight: 300;
+}
+.visualstrap-superhero .btn-default:hover {
+  background-color: #485563;
+}
+.visualstrap-superhero .btn-sm,
+.visualstrap-superhero .btn-xs {
+  font-size: 12px;
+}
+.visualstrap-superhero body {
+  font-weight: 300;
+}
+.visualstrap-superhero .text-primary,
+.visualstrap-superhero .text-primary:hover {
+  color: #df691a;
+}
+.visualstrap-superhero .text-success,
+.visualstrap-superhero .text-success:hover {
+  color: #5cb85c;
+}
+.visualstrap-superhero .text-danger,
+.visualstrap-superhero .text-danger:hover {
+  color: #d9534f;
+}
+.visualstrap-superhero .text-warning,
+.visualstrap-superhero .text-warning:hover {
+  color: #f0ad4e;
+}
+.visualstrap-superhero .text-info,
+.visualstrap-superhero .text-info:hover {
+  color: #5bc0de;
+}
+.visualstrap-superhero .page-header {
+  border-bottom-color: #4e5d6c;
+}
+.visualstrap-superhero .dropdown-menu {
+  border: none;
+  margin: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.visualstrap-superhero .dropdown-menu > li > a {
+  font-size: 12px;
+  font-weight: 300;
+}
+.visualstrap-superhero .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.visualstrap-superhero .dropdown-header {
+  font-size: 12px;
+}
+.visualstrap-superhero table,
+.visualstrap-superhero .table {
+  font-size: 12px;
+}
+.visualstrap-superhero table > thead > tr > th,
+.visualstrap-superhero .table > thead > tr > th,
+.visualstrap-superhero table > tbody > tr > th,
+.visualstrap-superhero .table > tbody > tr > th,
+.visualstrap-superhero table > tfoot > tr > th,
+.visualstrap-superhero .table > tfoot > tr > th,
+.visualstrap-superhero table > thead > tr > td,
+.visualstrap-superhero .table > thead > tr > td,
+.visualstrap-superhero table > tbody > tr > td,
+.visualstrap-superhero .table > tbody > tr > td,
+.visualstrap-superhero table > tfoot > tr > td,
+.visualstrap-superhero .table > tfoot > tr > td {
+  border-color: transparent;
+}
+.visualstrap-superhero label,
+.visualstrap-superhero .radio label,
+.visualstrap-superhero .checkbox label,
+.visualstrap-superhero .help-block {
+  font-size: 12px;
+  font-weight: 300;
+}
+.visualstrap-superhero .input-addon,
+.visualstrap-superhero .input-group-addon {
+  color: #ebebeb;
+}
+.visualstrap-superhero .has-warning .help-block,
+.visualstrap-superhero .has-warning .control-label {
+  color: #f0ad4e;
+}
+.visualstrap-superhero .has-error .help-block,
+.visualstrap-superhero .has-error .control-label {
+  color: #d9534f;
+}
+.visualstrap-superhero .has-success .help-block,
+.visualstrap-superhero .has-success .control-label {
+  color: #5cb85c;
+}
+.visualstrap-superhero .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.visualstrap-superhero .has-warning .form-control:focus,
+.visualstrap-superhero .has-error .form-control:focus,
+.visualstrap-superhero .has-success .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.visualstrap-superhero .nav .open > a,
+.visualstrap-superhero .nav .open > a:hover,
+.visualstrap-superhero .nav .open > a:focus {
+  border-color: transparent;
+}
+.visualstrap-superhero .nav-tabs > li > a {
+  color: #ebebeb;
+}
+.visualstrap-superhero .nav-pills > li > a {
+  color: #ebebeb;
+}
+.visualstrap-superhero .pager a {
+  color: #ebebeb;
+}
+.visualstrap-superhero .label {
+  font-weight: 300;
+}
+.visualstrap-superhero .alert {
+  color: #fff;
+}
+.visualstrap-superhero .alert a,
+.visualstrap-superhero .alert .alert-link {
+  color: #fff;
+}
+.visualstrap-superhero .well {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.visualstrap-superhero .panel {
+  border: none;
+}
+.visualstrap-superhero .panel-default > .panel-heading {
+  background-color: #485563;
+  color: #ebebeb;
+}
+.visualstrap-superhero .thumbnail {
+  background-color: #4e5d6c;
+  border: none;
+}
+.modal {
+  padding: 0;
+}
+.modal-header,
+.modal-footer {
+  background-color: #485563;
+  border: none;
+  border-radius: 0;
+}
+.visualstrap-superhero .popover-title {
+  border: none;
+}
+.visualstrap-superhero html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.visualstrap-superhero body {
+  margin: 0;
+}
+.visualstrap-superhero article,
+.visualstrap-superhero aside,
+.visualstrap-superhero details,
+.visualstrap-superhero figcaption,
+.visualstrap-superhero figure,
+.visualstrap-superhero footer,
+.visualstrap-superhero header,
+.visualstrap-superhero hgroup,
+.visualstrap-superhero main,
+.visualstrap-superhero nav,
+.visualstrap-superhero section,
+.visualstrap-superhero summary {
+  display: block;
+}
+.visualstrap-superhero audio,
+.visualstrap-superhero canvas,
+.visualstrap-superhero progress,
+.visualstrap-superhero video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.visualstrap-superhero audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.visualstrap-superhero [hidden],
+.visualstrap-superhero template {
+  display: none;
+}
+.visualstrap-superhero a {
+  background: transparent;
+}
+.visualstrap-superhero a:active,
+.visualstrap-superhero a:hover {
+  outline: 0;
+}
+.visualstrap-superhero abbr[title] {
+  border-bottom: 1px dotted;
+}
+.visualstrap-superhero b,
+.visualstrap-superhero strong {
+  font-weight: bold;
+}
+.visualstrap-superhero dfn {
+  font-style: italic;
+}
+.visualstrap-superhero h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.visualstrap-superhero mark {
+  background: #ff0;
+  color: #000;
+}
+.visualstrap-superhero small {
+  font-size: 80%;
+}
+.visualstrap-superhero sub,
+.visualstrap-superhero sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.visualstrap-superhero sup {
+  top: -0.5em;
+}
+.visualstrap-superhero sub {
+  bottom: -0.25em;
+}
+.visualstrap-superhero img {
+  border: 0;
+}
+.visualstrap-superhero svg:not(:root) {
+  overflow: hidden;
+}
+.visualstrap-superhero figure {
+  margin: 1em 40px;
+}
+.visualstrap-superhero hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+.visualstrap-superhero pre {
+  overflow: auto;
+}
+.visualstrap-superhero code,
+.visualstrap-superhero kbd,
+.visualstrap-superhero pre,
+.visualstrap-superhero samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+.visualstrap-superhero button,
+.visualstrap-superhero input,
+.visualstrap-superhero optgroup,
+.visualstrap-superhero select,
+.visualstrap-superhero textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.visualstrap-superhero button {
+  overflow: visible;
+}
+.visualstrap-superhero button,
+.visualstrap-superhero select {
+  text-transform: none;
+}
+.visualstrap-superhero button,
+.visualstrap-superhero html input[type="button"],
+.visualstrap-superhero input[type="reset"],
+.visualstrap-superhero input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+.visualstrap-superhero button[disabled],
+.visualstrap-superhero html input[disabled] {
+  cursor: default;
+}
+.visualstrap-superhero button::-moz-focus-inner,
+.visualstrap-superhero input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.visualstrap-superhero input {
+  line-height: normal;
+}
+.visualstrap-superhero input[type="checkbox"],
+.visualstrap-superhero input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.visualstrap-superhero input[type="number"]::-webkit-inner-spin-button,
+.visualstrap-superhero input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.visualstrap-superhero input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.visualstrap-superhero input[type="search"]::-webkit-search-cancel-button,
+.visualstrap-superhero input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.visualstrap-superhero fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.visualstrap-superhero legend {
+  border: 0;
+  padding: 0;
+}
+.visualstrap-superhero textarea {
+  overflow: auto;
+}
+.visualstrap-superhero optgroup {
+  font-weight: bold;
+}
+.visualstrap-superhero table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.visualstrap-superhero td,
+.visualstrap-superhero th {
+  padding: 0;
+}
+@media print {
+  .visualstrap-superhero * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  .visualstrap-superhero a,
+  .visualstrap-superhero a:visited {
+    text-decoration: underline;
+  }
+  .visualstrap-superhero a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  .visualstrap-superhero abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .visualstrap-superhero a[href^="javascript:"]:after,
+  .visualstrap-superhero a[href^="#"]:after {
+    content: "";
+  }
+  .visualstrap-superhero pre,
+  .visualstrap-superhero blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  .visualstrap-superhero thead {
+    display: table-header-group;
+  }
+  .visualstrap-superhero tr,
+  .visualstrap-superhero img {
+    page-break-inside: avoid;
+  }
+  .visualstrap-superhero img {
+    max-width: 100% !important;
+  }
+  .visualstrap-superhero p,
+  .visualstrap-superhero h2,
+  .visualstrap-superhero h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  .visualstrap-superhero h2,
+  .visualstrap-superhero h3 {
+    page-break-after: avoid;
+  }
+  .visualstrap-superhero select {
+    background: #fff !important;
+  }
+  .visualstrap-superhero .navbar {
+    display: none;
+  }
+  .visualstrap-superhero .table td,
+  .visualstrap-superhero .table th {
+    background-color: #fff !important;
+  }
+  .visualstrap-superhero .btn > .caret,
+  .visualstrap-superhero .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  .visualstrap-superhero .label {
+    border: 1px solid #000;
+  }
+  .visualstrap-superhero .table {
+    border-collapse: collapse !important;
+  }
+  .visualstrap-superhero .table-bordered th,
+  .visualstrap-superhero .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+.visualstrap-superhero * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.visualstrap-superhero *:before,
+.visualstrap-superhero *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.visualstrap-superhero html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.428571429;
+  color: #ebebeb !important;
+  background-color: #2b3e50;
+}
+.visualstrap-superhero input,
+.visualstrap-superhero button,
+.visualstrap-superhero select,
+.visualstrap-superhero textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.visualstrap-superhero a {
+  color: #df691a;
+  text-decoration: none;
+}
+.visualstrap-superhero a:hover,
+.visualstrap-superhero a:focus {
+  color: #df691a;
+  text-decoration: underline;
+}
+.visualstrap-superhero a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.visualstrap-superhero figure {
+  margin: 0;
+}
+.visualstrap-superhero img {
+  vertical-align: middle;
+}
+.visualstrap-superhero .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.visualstrap-superhero .img-rounded {
+  border-radius: 0;
+}
+.visualstrap-superhero .img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #2b3e50;
+  border: 1px solid #dddddd;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.visualstrap-superhero .img-circle {
+  border-radius: 50%;
+}
+.visualstrap-superhero hr {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  border: 0;
+  border-top: 1px solid #4e5d6c;
+}
+.visualstrap-superhero .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.visualstrap-superhero h1,
+.visualstrap-superhero h2,
+.visualstrap-superhero h3,
+.visualstrap-superhero h4,
+.visualstrap-superhero h5,
+.visualstrap-superhero h6,
+.visualstrap-superhero .h1,
+.visualstrap-superhero .h2,
+.visualstrap-superhero .h3,
+.visualstrap-superhero .h4,
+.visualstrap-superhero .h5,
+.visualstrap-superhero .h6 {
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.1;
+  color: inherit;
+}
+.visualstrap-superhero h1 small,
+.visualstrap-superhero h2 small,
+.visualstrap-superhero h3 small,
+.visualstrap-superhero h4 small,
+.visualstrap-superhero h5 small,
+.visualstrap-superhero h6 small,
+.visualstrap-superhero .h1 small,
+.visualstrap-superhero .h2 small,
+.visualstrap-superhero .h3 small,
+.visualstrap-superhero .h4 small,
+.visualstrap-superhero .h5 small,
+.visualstrap-superhero .h6 small,
+.visualstrap-superhero h1 .small,
+.visualstrap-superhero h2 .small,
+.visualstrap-superhero h3 .small,
+.visualstrap-superhero h4 .small,
+.visualstrap-superhero h5 .small,
+.visualstrap-superhero h6 .small,
+.visualstrap-superhero .h1 .small,
+.visualstrap-superhero .h2 .small,
+.visualstrap-superhero .h3 .small,
+.visualstrap-superhero .h4 .small,
+.visualstrap-superhero .h5 .small,
+.visualstrap-superhero .h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #ebebeb;
+}
+.visualstrap-superhero h1,
+.visualstrap-superhero .h1,
+.visualstrap-superhero h2,
+.visualstrap-superhero .h2,
+.visualstrap-superhero h3,
+.visualstrap-superhero .h3 {
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+}
+.visualstrap-superhero h1 small,
+.visualstrap-superhero .h1 small,
+.visualstrap-superhero h2 small,
+.visualstrap-superhero .h2 small,
+.visualstrap-superhero h3 small,
+.visualstrap-superhero .h3 small,
+.visualstrap-superhero h1 .small,
+.visualstrap-superhero .h1 .small,
+.visualstrap-superhero h2 .small,
+.visualstrap-superhero .h2 .small,
+.visualstrap-superhero h3 .small,
+.visualstrap-superhero .h3 .small {
+  font-size: 65%;
+}
+.visualstrap-superhero h4,
+.visualstrap-superhero .h4,
+.visualstrap-superhero h5,
+.visualstrap-superhero .h5,
+.visualstrap-superhero h6,
+.visualstrap-superhero .h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+.visualstrap-superhero h4 small,
+.visualstrap-superhero .h4 small,
+.visualstrap-superhero h5 small,
+.visualstrap-superhero .h5 small,
+.visualstrap-superhero h6 small,
+.visualstrap-superhero .h6 small,
+.visualstrap-superhero h4 .small,
+.visualstrap-superhero .h4 .small,
+.visualstrap-superhero h5 .small,
+.visualstrap-superhero .h5 .small,
+.visualstrap-superhero h6 .small,
+.visualstrap-superhero .h6 .small {
+  font-size: 75%;
+}
+.visualstrap-superhero h1,
+.visualstrap-superhero .h1 {
+  font-size: 39px;
+}
+.visualstrap-superhero h2,
+.visualstrap-superhero .h2 {
+  font-size: 32px;
+}
+.visualstrap-superhero h3,
+.visualstrap-superhero .h3 {
+  font-size: 26px;
+}
+.visualstrap-superhero h4,
+.visualstrap-superhero .h4 {
+  font-size: 19px;
+}
+.visualstrap-superhero h5,
+.visualstrap-superhero .h5 {
+  font-size: 15px;
+}
+.visualstrap-superhero h6,
+.visualstrap-superhero .h6 {
+  font-size: 13px;
+}
+.visualstrap-superhero p {
+  margin: 0 0 10.5px;
+}
+.visualstrap-superhero .lead {
+  margin-bottom: 21px;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .lead {
+    font-size: 22.5px;
+  }
+}
+.visualstrap-superhero small,
+.visualstrap-superhero .small {
+  font-size: 85%;
+}
+.visualstrap-superhero cite {
+  font-style: normal;
+}
+.visualstrap-superhero .text-left {
+  text-align: left;
+}
+.visualstrap-superhero .text-right {
+  text-align: right;
+}
+.visualstrap-superhero .text-center {
+  text-align: center;
+}
+.visualstrap-superhero .text-justify {
+  text-align: justify;
+}
+.visualstrap-superhero .text-muted {
+  color: #4e5d6c;
+}
+.visualstrap-superhero .text-primary {
+  color: #df691a;
+}
+.visualstrap-superhero a.text-primary:hover {
+  color: #b15315;
+}
+.visualstrap-superhero .text-success {
+  color: #ebebeb;
+}
+.visualstrap-superhero a.text-success:hover {
+  color: #d2d2d2;
+}
+.visualstrap-superhero .text-info {
+  color: #ebebeb;
+}
+.visualstrap-superhero a.text-info:hover {
+  color: #d2d2d2;
+}
+.visualstrap-superhero .text-warning {
+  color: #ebebeb;
+}
+.visualstrap-superhero a.text-warning:hover {
+  color: #d2d2d2;
+}
+.visualstrap-superhero .text-danger {
+  color: #ebebeb;
+}
+.visualstrap-superhero a.text-danger:hover {
+  color: #d2d2d2;
+}
+.visualstrap-superhero .bg-primary {
+  color: #fff;
+  background-color: #df691a;
+}
+.visualstrap-superhero a.bg-primary:hover {
+  background-color: #b15315;
+}
+.visualstrap-superhero .bg-success {
+  background-color: #5cb85c;
+}
+.visualstrap-superhero a.bg-success:hover {
+  background-color: #449d44;
+}
+.visualstrap-superhero .bg-info {
+  background-color: #5bc0de;
+}
+.visualstrap-superhero a.bg-info:hover {
+  background-color: #31b0d5;
+}
+.visualstrap-superhero .bg-warning {
+  background-color: #f0ad4e;
+}
+.visualstrap-superhero a.bg-warning:hover {
+  background-color: #ec971f;
+}
+.visualstrap-superhero .bg-danger {
+  background-color: #d9534f;
+}
+.visualstrap-superhero a.bg-danger:hover {
+  background-color: #c9302c;
+}
+.visualstrap-superhero .page-header {
+  padding-bottom: 9.5px;
+  margin: 42px 0 21px;
+  border-bottom: 1px solid #ebebeb;
+}
+.visualstrap-superhero ul,
+.visualstrap-superhero ol {
+  margin-top: 0;
+  margin-bottom: 10.5px;
+}
+.visualstrap-superhero ul ul,
+.visualstrap-superhero ol ul,
+.visualstrap-superhero ul ol,
+.visualstrap-superhero ol ol {
+  margin-bottom: 0;
+}
+.visualstrap-superhero .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.visualstrap-superhero .list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+.visualstrap-superhero .list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.visualstrap-superhero .list-inline > li:first-child {
+  padding-left: 0;
+}
+.visualstrap-superhero dl {
+  margin-top: 0;
+  margin-bottom: 21px;
+}
+.visualstrap-superhero dt,
+.visualstrap-superhero dd {
+  line-height: 1.428571429;
+}
+.visualstrap-superhero dt {
+  font-weight: bold;
+}
+.visualstrap-superhero dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .visualstrap-superhero .dl-horizontal dd {
+    margin-left: 180px;
+  }
+}
+.visualstrap-superhero abbr[title],
+.visualstrap-superhero abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #4e5d6c;
+}
+.visualstrap-superhero .initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+.visualstrap-superhero blockquote {
+  padding: 10.5px 21px;
+  margin: 0 0 21px;
+  font-size: 18.75px;
+  border-left: 5px solid #4e5d6c;
+}
+.visualstrap-superhero blockquote p:last-child,
+.visualstrap-superhero blockquote ul:last-child,
+.visualstrap-superhero blockquote ol:last-child {
+  margin-bottom: 0;
+}
+.visualstrap-superhero blockquote footer,
+.visualstrap-superhero blockquote small,
+.visualstrap-superhero blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.428571429;
+  color: #ebebeb;
+}
+.visualstrap-superhero blockquote footer:before,
+.visualstrap-superhero blockquote small:before,
+.visualstrap-superhero blockquote .small:before {
+  content: '\2014 \00A0';
+}
+.visualstrap-superhero .blockquote-reverse,
+.visualstrap-superhero blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #4e5d6c;
+  border-left: 0;
+  text-align: right;
+}
+.visualstrap-superhero .blockquote-reverse footer:before,
+.visualstrap-superhero blockquote.pull-right footer:before,
+.visualstrap-superhero .blockquote-reverse small:before,
+.visualstrap-superhero blockquote.pull-right small:before,
+.visualstrap-superhero .blockquote-reverse .small:before,
+.visualstrap-superhero blockquote.pull-right .small:before {
+  content: '';
+}
+.visualstrap-superhero .blockquote-reverse footer:after,
+.visualstrap-superhero blockquote.pull-right footer:after,
+.visualstrap-superhero .blockquote-reverse small:after,
+.visualstrap-superhero blockquote.pull-right small:after,
+.visualstrap-superhero .blockquote-reverse .small:after,
+.visualstrap-superhero blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+.visualstrap-superhero blockquote:before,
+.visualstrap-superhero blockquote:after {
+  content: "";
+}
+.visualstrap-superhero address {
+  margin-bottom: 21px;
+  font-style: normal;
+  line-height: 1.428571429;
+}
+.visualstrap-superhero code,
+.visualstrap-superhero kbd,
+.visualstrap-superhero pre,
+.visualstrap-superhero samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.visualstrap-superhero code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  white-space: nowrap;
+  border-radius: 0;
+}
+.visualstrap-superhero kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.visualstrap-superhero pre {
+  display: block;
+  padding: 10px;
+  margin: 0 0 10.5px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+}
+.visualstrap-superhero pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+.visualstrap-superhero .pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+.visualstrap-superhero .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .visualstrap-superhero .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .visualstrap-superhero .container {
+    width: 1170px;
+  }
+}
+.visualstrap-superhero .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.visualstrap-superhero .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.visualstrap-superhero .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.visualstrap-superhero .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.visualstrap-superhero .col-xs-12 {
+  width: 100%;
+}
+.visualstrap-superhero .col-xs-11 {
+  width: 91.66666666666666%;
+}
+.visualstrap-superhero .col-xs-10 {
+  width: 83.33333333333334%;
+}
+.visualstrap-superhero .col-xs-9 {
+  width: 75%;
+}
+.visualstrap-superhero .col-xs-8 {
+  width: 66.66666666666666%;
+}
+.visualstrap-superhero .col-xs-7 {
+  width: 58.333333333333336%;
+}
+.visualstrap-superhero .col-xs-6 {
+  width: 50%;
+}
+.visualstrap-superhero .col-xs-5 {
+  width: 41.66666666666667%;
+}
+.visualstrap-superhero .col-xs-4 {
+  width: 33.33333333333333%;
+}
+.visualstrap-superhero .col-xs-3 {
+  width: 25%;
+}
+.visualstrap-superhero .col-xs-2 {
+  width: 16.666666666666664%;
+}
+.visualstrap-superhero .col-xs-1 {
+  width: 8.333333333333332%;
+}
+.visualstrap-superhero .col-xs-pull-12 {
+  right: 100%;
+}
+.visualstrap-superhero .col-xs-pull-11 {
+  right: 91.66666666666666%;
+}
+.visualstrap-superhero .col-xs-pull-10 {
+  right: 83.33333333333334%;
+}
+.visualstrap-superhero .col-xs-pull-9 {
+  right: 75%;
+}
+.visualstrap-superhero .col-xs-pull-8 {
+  right: 66.66666666666666%;
+}
+.visualstrap-superhero .col-xs-pull-7 {
+  right: 58.333333333333336%;
+}
+.visualstrap-superhero .col-xs-pull-6 {
+  right: 50%;
+}
+.visualstrap-superhero .col-xs-pull-5 {
+  right: 41.66666666666667%;
+}
+.visualstrap-superhero .col-xs-pull-4 {
+  right: 33.33333333333333%;
+}
+.visualstrap-superhero .col-xs-pull-3 {
+  right: 25%;
+}
+.visualstrap-superhero .col-xs-pull-2 {
+  right: 16.666666666666664%;
+}
+.visualstrap-superhero .col-xs-pull-1 {
+  right: 8.333333333333332%;
+}
+.visualstrap-superhero .col-xs-pull-0 {
+  right: 0%;
+}
+.visualstrap-superhero .col-xs-push-12 {
+  left: 100%;
+}
+.visualstrap-superhero .col-xs-push-11 {
+  left: 91.66666666666666%;
+}
+.visualstrap-superhero .col-xs-push-10 {
+  left: 83.33333333333334%;
+}
+.visualstrap-superhero .col-xs-push-9 {
+  left: 75%;
+}
+.visualstrap-superhero .col-xs-push-8 {
+  left: 66.66666666666666%;
+}
+.visualstrap-superhero .col-xs-push-7 {
+  left: 58.333333333333336%;
+}
+.visualstrap-superhero .col-xs-push-6 {
+  left: 50%;
+}
+.visualstrap-superhero .col-xs-push-5 {
+  left: 41.66666666666667%;
+}
+.visualstrap-superhero .col-xs-push-4 {
+  left: 33.33333333333333%;
+}
+.visualstrap-superhero .col-xs-push-3 {
+  left: 25%;
+}
+.visualstrap-superhero .col-xs-push-2 {
+  left: 16.666666666666664%;
+}
+.visualstrap-superhero .col-xs-push-1 {
+  left: 8.333333333333332%;
+}
+.visualstrap-superhero .col-xs-push-0 {
+  left: 0%;
+}
+.visualstrap-superhero .col-xs-offset-12 {
+  margin-left: 100%;
+}
+.visualstrap-superhero .col-xs-offset-11 {
+  margin-left: 91.66666666666666%;
+}
+.visualstrap-superhero .col-xs-offset-10 {
+  margin-left: 83.33333333333334%;
+}
+.visualstrap-superhero .col-xs-offset-9 {
+  margin-left: 75%;
+}
+.visualstrap-superhero .col-xs-offset-8 {
+  margin-left: 66.66666666666666%;
+}
+.visualstrap-superhero .col-xs-offset-7 {
+  margin-left: 58.333333333333336%;
+}
+.visualstrap-superhero .col-xs-offset-6 {
+  margin-left: 50%;
+}
+.visualstrap-superhero .col-xs-offset-5 {
+  margin-left: 41.66666666666667%;
+}
+.visualstrap-superhero .col-xs-offset-4 {
+  margin-left: 33.33333333333333%;
+}
+.visualstrap-superhero .col-xs-offset-3 {
+  margin-left: 25%;
+}
+.visualstrap-superhero .col-xs-offset-2 {
+  margin-left: 16.666666666666664%;
+}
+.visualstrap-superhero .col-xs-offset-1 {
+  margin-left: 8.333333333333332%;
+}
+.visualstrap-superhero .col-xs-offset-0 {
+  margin-left: 0%;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .visualstrap-superhero .col-sm-12 {
+    width: 100%;
+  }
+  .visualstrap-superhero .col-sm-11 {
+    width: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-sm-10 {
+    width: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-sm-9 {
+    width: 75%;
+  }
+  .visualstrap-superhero .col-sm-8 {
+    width: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-sm-7 {
+    width: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-sm-6 {
+    width: 50%;
+  }
+  .visualstrap-superhero .col-sm-5 {
+    width: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-sm-4 {
+    width: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-sm-3 {
+    width: 25%;
+  }
+  .visualstrap-superhero .col-sm-2 {
+    width: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-sm-1 {
+    width: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-sm-pull-12 {
+    right: 100%;
+  }
+  .visualstrap-superhero .col-sm-pull-11 {
+    right: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-sm-pull-10 {
+    right: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-sm-pull-9 {
+    right: 75%;
+  }
+  .visualstrap-superhero .col-sm-pull-8 {
+    right: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-sm-pull-7 {
+    right: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-sm-pull-6 {
+    right: 50%;
+  }
+  .visualstrap-superhero .col-sm-pull-5 {
+    right: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-sm-pull-4 {
+    right: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-sm-pull-3 {
+    right: 25%;
+  }
+  .visualstrap-superhero .col-sm-pull-2 {
+    right: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-sm-pull-1 {
+    right: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-sm-pull-0 {
+    right: 0%;
+  }
+  .visualstrap-superhero .col-sm-push-12 {
+    left: 100%;
+  }
+  .visualstrap-superhero .col-sm-push-11 {
+    left: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-sm-push-10 {
+    left: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-sm-push-9 {
+    left: 75%;
+  }
+  .visualstrap-superhero .col-sm-push-8 {
+    left: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-sm-push-7 {
+    left: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-sm-push-6 {
+    left: 50%;
+  }
+  .visualstrap-superhero .col-sm-push-5 {
+    left: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-sm-push-4 {
+    left: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-sm-push-3 {
+    left: 25%;
+  }
+  .visualstrap-superhero .col-sm-push-2 {
+    left: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-sm-push-1 {
+    left: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-sm-push-0 {
+    left: 0%;
+  }
+  .visualstrap-superhero .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  .visualstrap-superhero .col-sm-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-sm-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .visualstrap-superhero .col-sm-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-sm-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .visualstrap-superhero .col-sm-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-sm-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .visualstrap-superhero .col-sm-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-sm-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  .visualstrap-superhero .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .visualstrap-superhero .col-md-12 {
+    width: 100%;
+  }
+  .visualstrap-superhero .col-md-11 {
+    width: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-md-10 {
+    width: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-md-9 {
+    width: 75%;
+  }
+  .visualstrap-superhero .col-md-8 {
+    width: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-md-7 {
+    width: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-md-6 {
+    width: 50%;
+  }
+  .visualstrap-superhero .col-md-5 {
+    width: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-md-4 {
+    width: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-md-3 {
+    width: 25%;
+  }
+  .visualstrap-superhero .col-md-2 {
+    width: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-md-1 {
+    width: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-md-pull-12 {
+    right: 100%;
+  }
+  .visualstrap-superhero .col-md-pull-11 {
+    right: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-md-pull-10 {
+    right: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-md-pull-9 {
+    right: 75%;
+  }
+  .visualstrap-superhero .col-md-pull-8 {
+    right: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-md-pull-7 {
+    right: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-md-pull-6 {
+    right: 50%;
+  }
+  .visualstrap-superhero .col-md-pull-5 {
+    right: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-md-pull-4 {
+    right: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-md-pull-3 {
+    right: 25%;
+  }
+  .visualstrap-superhero .col-md-pull-2 {
+    right: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-md-pull-1 {
+    right: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-md-pull-0 {
+    right: 0%;
+  }
+  .visualstrap-superhero .col-md-push-12 {
+    left: 100%;
+  }
+  .visualstrap-superhero .col-md-push-11 {
+    left: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-md-push-10 {
+    left: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-md-push-9 {
+    left: 75%;
+  }
+  .visualstrap-superhero .col-md-push-8 {
+    left: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-md-push-7 {
+    left: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-md-push-6 {
+    left: 50%;
+  }
+  .visualstrap-superhero .col-md-push-5 {
+    left: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-md-push-4 {
+    left: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-md-push-3 {
+    left: 25%;
+  }
+  .visualstrap-superhero .col-md-push-2 {
+    left: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-md-push-1 {
+    left: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-md-push-0 {
+    left: 0%;
+  }
+  .visualstrap-superhero .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  .visualstrap-superhero .col-md-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-md-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .visualstrap-superhero .col-md-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-md-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .visualstrap-superhero .col-md-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-md-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .visualstrap-superhero .col-md-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-md-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .visualstrap-superhero .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .visualstrap-superhero .col-lg-12 {
+    width: 100%;
+  }
+  .visualstrap-superhero .col-lg-11 {
+    width: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-lg-10 {
+    width: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-lg-9 {
+    width: 75%;
+  }
+  .visualstrap-superhero .col-lg-8 {
+    width: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-lg-7 {
+    width: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-lg-6 {
+    width: 50%;
+  }
+  .visualstrap-superhero .col-lg-5 {
+    width: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-lg-3 {
+    width: 25%;
+  }
+  .visualstrap-superhero .col-lg-2 {
+    width: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-lg-1 {
+    width: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-lg-pull-12 {
+    right: 100%;
+  }
+  .visualstrap-superhero .col-lg-pull-11 {
+    right: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-lg-pull-10 {
+    right: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-lg-pull-9 {
+    right: 75%;
+  }
+  .visualstrap-superhero .col-lg-pull-8 {
+    right: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-lg-pull-7 {
+    right: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-lg-pull-6 {
+    right: 50%;
+  }
+  .visualstrap-superhero .col-lg-pull-5 {
+    right: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-lg-pull-4 {
+    right: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-lg-pull-3 {
+    right: 25%;
+  }
+  .visualstrap-superhero .col-lg-pull-2 {
+    right: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-lg-pull-1 {
+    right: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-lg-pull-0 {
+    right: 0%;
+  }
+  .visualstrap-superhero .col-lg-push-12 {
+    left: 100%;
+  }
+  .visualstrap-superhero .col-lg-push-11 {
+    left: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-lg-push-10 {
+    left: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-lg-push-9 {
+    left: 75%;
+  }
+  .visualstrap-superhero .col-lg-push-8 {
+    left: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-lg-push-7 {
+    left: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-lg-push-6 {
+    left: 50%;
+  }
+  .visualstrap-superhero .col-lg-push-5 {
+    left: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-lg-push-4 {
+    left: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-lg-push-3 {
+    left: 25%;
+  }
+  .visualstrap-superhero .col-lg-push-2 {
+    left: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-lg-push-1 {
+    left: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-lg-push-0 {
+    left: 0%;
+  }
+  .visualstrap-superhero .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  .visualstrap-superhero .col-lg-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  .visualstrap-superhero .col-lg-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  .visualstrap-superhero .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  .visualstrap-superhero .col-lg-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  .visualstrap-superhero .col-lg-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  .visualstrap-superhero .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  .visualstrap-superhero .col-lg-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  .visualstrap-superhero .col-lg-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  .visualstrap-superhero .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  .visualstrap-superhero .col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  .visualstrap-superhero .col-lg-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  .visualstrap-superhero .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+.visualstrap-superhero table {
+  max-width: 100%;
+  background-color: transparent;
+}
+.visualstrap-superhero th {
+  text-align: left;
+}
+.visualstrap-superhero .table {
+  width: 100%;
+  margin-bottom: 21px;
+}
+.visualstrap-superhero .table > thead > tr > th,
+.visualstrap-superhero .table > tbody > tr > th,
+.visualstrap-superhero .table > tfoot > tr > th,
+.visualstrap-superhero .table > thead > tr > td,
+.visualstrap-superhero .table > tbody > tr > td,
+.visualstrap-superhero .table > tfoot > tr > td {
+  padding: 6px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #4e5d6c;
+}
+.visualstrap-superhero .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #4e5d6c;
+}
+.visualstrap-superhero .table > caption + thead > tr:first-child > th,
+.visualstrap-superhero .table > colgroup + thead > tr:first-child > th,
+.visualstrap-superhero .table > thead:first-child > tr:first-child > th,
+.visualstrap-superhero .table > caption + thead > tr:first-child > td,
+.visualstrap-superhero .table > colgroup + thead > tr:first-child > td,
+.visualstrap-superhero .table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.visualstrap-superhero .table > tbody + tbody {
+  border-top: 2px solid #4e5d6c;
+}
+.visualstrap-superhero .table .table {
+  background-color: #2b3e50;
+}
+.visualstrap-superhero .table-condensed > thead > tr > th,
+.visualstrap-superhero .table-condensed > tbody > tr > th,
+.visualstrap-superhero .table-condensed > tfoot > tr > th,
+.visualstrap-superhero .table-condensed > thead > tr > td,
+.visualstrap-superhero .table-condensed > tbody > tr > td,
+.visualstrap-superhero .table-condensed > tfoot > tr > td {
+  padding: 3px;
+}
+.visualstrap-superhero .table-bordered {
+  border: 1px solid #4e5d6c;
+}
+.visualstrap-superhero .table-bordered > thead > tr > th,
+.visualstrap-superhero .table-bordered > tbody > tr > th,
+.visualstrap-superhero .table-bordered > tfoot > tr > th,
+.visualstrap-superhero .table-bordered > thead > tr > td,
+.visualstrap-superhero .table-bordered > tbody > tr > td,
+.visualstrap-superhero .table-bordered > tfoot > tr > td {
+  border: 1px solid #4e5d6c;
+}
+.visualstrap-superhero .table-bordered > thead > tr > th,
+.visualstrap-superhero .table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.visualstrap-superhero .table-striped > tbody > tr:nth-child(odd) > td,
+.visualstrap-superhero .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #4e5d6c;
+}
+.visualstrap-superhero .table-hover > tbody > tr:hover > td,
+.visualstrap-superhero .table-hover > tbody > tr:hover > th {
+  background-color: #485563;
+}
+.visualstrap-superhero table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+.visualstrap-superhero table td[class*="col-"],
+.visualstrap-superhero table th[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-cell;
+}
+.visualstrap-superhero .table > thead > tr > td.active,
+.visualstrap-superhero .table > tbody > tr > td.active,
+.visualstrap-superhero .table > tfoot > tr > td.active,
+.visualstrap-superhero .table > thead > tr > th.active,
+.visualstrap-superhero .table > tbody > tr > th.active,
+.visualstrap-superhero .table > tfoot > tr > th.active,
+.visualstrap-superhero .table > thead > tr.active > td,
+.visualstrap-superhero .table > tbody > tr.active > td,
+.visualstrap-superhero .table > tfoot > tr.active > td,
+.visualstrap-superhero .table > thead > tr.active > th,
+.visualstrap-superhero .table > tbody > tr.active > th,
+.visualstrap-superhero .table > tfoot > tr.active > th {
+  background-color: #485563;
+}
+.visualstrap-superhero .table-hover > tbody > tr > td.active:hover,
+.visualstrap-superhero .table-hover > tbody > tr > th.active:hover,
+.visualstrap-superhero .table-hover > tbody > tr.active:hover > td,
+.visualstrap-superhero .table-hover > tbody > tr.active:hover > th {
+  background-color: #3d4954;
+}
+.visualstrap-superhero .table > thead > tr > td.success,
+.visualstrap-superhero .table > tbody > tr > td.success,
+.visualstrap-superhero .table > tfoot > tr > td.success,
+.visualstrap-superhero .table > thead > tr > th.success,
+.visualstrap-superhero .table > tbody > tr > th.success,
+.visualstrap-superhero .table > tfoot > tr > th.success,
+.visualstrap-superhero .table > thead > tr.success > td,
+.visualstrap-superhero .table > tbody > tr.success > td,
+.visualstrap-superhero .table > tfoot > tr.success > td,
+.visualstrap-superhero .table > thead > tr.success > th,
+.visualstrap-superhero .table > tbody > tr.success > th,
+.visualstrap-superhero .table > tfoot > tr.success > th {
+  background-color: #5cb85c;
+}
+.visualstrap-superhero .table-hover > tbody > tr > td.success:hover,
+.visualstrap-superhero .table-hover > tbody > tr > th.success:hover,
+.visualstrap-superhero .table-hover > tbody > tr.success:hover > td,
+.visualstrap-superhero .table-hover > tbody > tr.success:hover > th {
+  background-color: #4cae4c;
+}
+.visualstrap-superhero .table > thead > tr > td.info,
+.visualstrap-superhero .table > tbody > tr > td.info,
+.visualstrap-superhero .table > tfoot > tr > td.info,
+.visualstrap-superhero .table > thead > tr > th.info,
+.visualstrap-superhero .table > tbody > tr > th.info,
+.visualstrap-superhero .table > tfoot > tr > th.info,
+.visualstrap-superhero .table > thead > tr.info > td,
+.visualstrap-superhero .table > tbody > tr.info > td,
+.visualstrap-superhero .table > tfoot > tr.info > td,
+.visualstrap-superhero .table > thead > tr.info > th,
+.visualstrap-superhero .table > tbody > tr.info > th,
+.visualstrap-superhero .table > tfoot > tr.info > th {
+  background-color: #5bc0de;
+}
+.visualstrap-superhero .table-hover > tbody > tr > td.info:hover,
+.visualstrap-superhero .table-hover > tbody > tr > th.info:hover,
+.visualstrap-superhero .table-hover > tbody > tr.info:hover > td,
+.visualstrap-superhero .table-hover > tbody > tr.info:hover > th {
+  background-color: #46b8da;
+}
+.visualstrap-superhero .table > thead > tr > td.warning,
+.visualstrap-superhero .table > tbody > tr > td.warning,
+.visualstrap-superhero .table > tfoot > tr > td.warning,
+.visualstrap-superhero .table > thead > tr > th.warning,
+.visualstrap-superhero .table > tbody > tr > th.warning,
+.visualstrap-superhero .table > tfoot > tr > th.warning,
+.visualstrap-superhero .table > thead > tr.warning > td,
+.visualstrap-superhero .table > tbody > tr.warning > td,
+.visualstrap-superhero .table > tfoot > tr.warning > td,
+.visualstrap-superhero .table > thead > tr.warning > th,
+.visualstrap-superhero .table > tbody > tr.warning > th,
+.visualstrap-superhero .table > tfoot > tr.warning > th {
+  background-color: #f0ad4e;
+}
+.visualstrap-superhero .table-hover > tbody > tr > td.warning:hover,
+.visualstrap-superhero .table-hover > tbody > tr > th.warning:hover,
+.visualstrap-superhero .table-hover > tbody > tr.warning:hover > td,
+.visualstrap-superhero .table-hover > tbody > tr.warning:hover > th {
+  background-color: #eea236;
+}
+.visualstrap-superhero .table > thead > tr > td.danger,
+.visualstrap-superhero .table > tbody > tr > td.danger,
+.visualstrap-superhero .table > tfoot > tr > td.danger,
+.visualstrap-superhero .table > thead > tr > th.danger,
+.visualstrap-superhero .table > tbody > tr > th.danger,
+.visualstrap-superhero .table > tfoot > tr > th.danger,
+.visualstrap-superhero .table > thead > tr.danger > td,
+.visualstrap-superhero .table > tbody > tr.danger > td,
+.visualstrap-superhero .table > tfoot > tr.danger > td,
+.visualstrap-superhero .table > thead > tr.danger > th,
+.visualstrap-superhero .table > tbody > tr.danger > th,
+.visualstrap-superhero .table > tfoot > tr.danger > th {
+  background-color: #d9534f;
+}
+.visualstrap-superhero .table-hover > tbody > tr > td.danger:hover,
+.visualstrap-superhero .table-hover > tbody > tr > th.danger:hover,
+.visualstrap-superhero .table-hover > tbody > tr.danger:hover > td,
+.visualstrap-superhero .table-hover > tbody > tr.danger:hover > th {
+  background-color: #d43f3a;
+}
+@media (max-width: 767px) {
+  .visualstrap-superhero .table-responsive {
+    width: 100%;
+    margin-bottom: 15.75px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #4e5d6c;
+    -webkit-overflow-scrolling: touch;
+  }
+  .visualstrap-superhero .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  .visualstrap-superhero .table-responsive > .table > thead > tr > th,
+  .visualstrap-superhero .table-responsive > .table > tbody > tr > th,
+  .visualstrap-superhero .table-responsive > .table > tfoot > tr > th,
+  .visualstrap-superhero .table-responsive > .table > thead > tr > td,
+  .visualstrap-superhero .table-responsive > .table > tbody > tr > td,
+  .visualstrap-superhero .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  .visualstrap-superhero .table-responsive > .table-bordered {
+    border: 0;
+  }
+  .visualstrap-superhero .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  .visualstrap-superhero .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .visualstrap-superhero .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  .visualstrap-superhero .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .visualstrap-superhero .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .visualstrap-superhero .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .visualstrap-superhero .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+.visualstrap-superhero fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+.visualstrap-superhero legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 21px;
+  font-size: 22.5px;
+  line-height: inherit;
+  color: #ebebeb;
+  border: 0;
+  border-bottom: 1px solid #4e5d6c;
+}
+.visualstrap-superhero label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.visualstrap-superhero input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.visualstrap-superhero input[type="radio"],
+.visualstrap-superhero input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  /* IE8-9 */
+  line-height: normal;
+}
+.visualstrap-superhero input[type="file"] {
+  display: block;
+}
+.visualstrap-superhero input[type="range"] {
+  display: block;
+  width: 100%;
+}
+.visualstrap-superhero select[multiple],
+.visualstrap-superhero select[size] {
+  height: auto;
+}
+.visualstrap-superhero input[type="file"]:focus,
+.visualstrap-superhero input[type="radio"]:focus,
+.visualstrap-superhero input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.visualstrap-superhero output {
+  display: block;
+  padding-top: 9px;
+  font-size: 15px;
+  line-height: 1.428571429;
+  color: #2b3e50;
+}
+.visualstrap-superhero .form-control {
+  display: block;
+  width: 100%;
+  height: 39px;
+  padding: 8px 16px;
+  font-size: 15px;
+  line-height: 1.428571429;
+  color: #2b3e50;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.visualstrap-superhero .form-control:focus {
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.visualstrap-superhero .form-control:-moz-placeholder {
+  color: #4e5d6c;
+}
+.visualstrap-superhero .form-control::-moz-placeholder {
+  color: #4e5d6c;
+  opacity: 1;
+}
+.visualstrap-superhero .form-control:-ms-input-placeholder {
+  color: #4e5d6c;
+}
+.visualstrap-superhero .form-control::-webkit-input-placeholder {
+  color: #4e5d6c;
+}
+.visualstrap-superhero .form-control[disabled],
+.visualstrap-superhero .form-control[readonly],
+fieldset[disabled] .visualstrap-superhero .form-control {
+  cursor: not-allowed;
+  background-color: #ebebeb;
+  opacity: 1;
+}
+.visualstrap-superhero textarea.form-control {
+  height: auto;
+}
+.visualstrap-superhero input[type="date"] {
+  line-height: 39px;
+}
+.visualstrap-superhero .form-group {
+  margin-bottom: 15px;
+}
+.visualstrap-superhero .radio,
+.visualstrap-superhero .checkbox {
+  display: block;
+  min-height: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.visualstrap-superhero .radio label,
+.visualstrap-superhero .checkbox label {
+  display: inline;
+  font-weight: normal;
+  cursor: pointer;
+}
+.visualstrap-superhero .radio input[type="radio"],
+.visualstrap-superhero .radio-inline input[type="radio"],
+.visualstrap-superhero .checkbox input[type="checkbox"],
+.visualstrap-superhero .checkbox-inline input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+.visualstrap-superhero .radio + .radio,
+.visualstrap-superhero .checkbox + .checkbox {
+  margin-top: -5px;
+}
+.visualstrap-superhero .radio-inline,
+.visualstrap-superhero .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+.visualstrap-superhero .radio-inline + .radio-inline,
+.visualstrap-superhero .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+.visualstrap-superhero input[type="radio"][disabled],
+.visualstrap-superhero input[type="checkbox"][disabled],
+.visualstrap-superhero .radio[disabled],
+.visualstrap-superhero .radio-inline[disabled],
+.visualstrap-superhero .checkbox[disabled],
+.visualstrap-superhero .checkbox-inline[disabled],
+fieldset[disabled] .visualstrap-superhero input[type="radio"],
+fieldset[disabled] .visualstrap-superhero input[type="checkbox"],
+fieldset[disabled] .visualstrap-superhero .radio,
+fieldset[disabled] .visualstrap-superhero .radio-inline,
+fieldset[disabled] .visualstrap-superhero .checkbox,
+fieldset[disabled] .visualstrap-superhero .checkbox-inline {
+  cursor: not-allowed;
+}
+.visualstrap-superhero .input-sm {
+  height: 31px;
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 0;
+}
+select.visualstrap-superhero .input-sm {
+  height: 31px;
+  line-height: 31px;
+}
+.visualstrap-superhero textarea.input-sm,
+select[multiple].visualstrap-superhero .input-sm {
+  height: auto;
+}
+.visualstrap-superhero .input-lg {
+  height: 52px;
+  padding: 12px 24px;
+  font-size: 19px;
+  line-height: 1.33;
+  border-radius: 0;
+}
+select.visualstrap-superhero .input-lg {
+  height: 52px;
+  line-height: 52px;
+}
+.visualstrap-superhero textarea.input-lg,
+select[multiple].visualstrap-superhero .input-lg {
+  height: auto;
+}
+.visualstrap-superhero .has-feedback {
+  position: relative;
+}
+.visualstrap-superhero .has-feedback .form-control {
+  padding-right: 48.75px;
+}
+.visualstrap-superhero .has-feedback .form-control-feedback {
+  position: absolute;
+  top: 26px;
+  right: 0;
+  display: block;
+  width: 39px;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+}
+.visualstrap-superhero .has-success .help-block,
+.visualstrap-superhero .has-success .control-label,
+.visualstrap-superhero .has-success .radio,
+.visualstrap-superhero .has-success .checkbox,
+.visualstrap-superhero .has-success .radio-inline,
+.visualstrap-superhero .has-success .checkbox-inline {
+  color: #ebebeb;
+}
+.visualstrap-superhero .has-success .form-control {
+  border-color: #ebebeb;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.visualstrap-superhero .has-success .form-control:focus {
+  border-color: #d2d2d2;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+}
+.visualstrap-superhero .has-success .input-group-addon {
+  color: #ebebeb;
+  border-color: #ebebeb;
+  background-color: #5cb85c;
+}
+.visualstrap-superhero .has-success .form-control-feedback {
+  color: #ebebeb;
+}
+.visualstrap-superhero .has-warning .help-block,
+.visualstrap-superhero .has-warning .control-label,
+.visualstrap-superhero .has-warning .radio,
+.visualstrap-superhero .has-warning .checkbox,
+.visualstrap-superhero .has-warning .radio-inline,
+.visualstrap-superhero .has-warning .checkbox-inline {
+  color: #ebebeb;
+}
+.visualstrap-superhero .has-warning .form-control {
+  border-color: #ebebeb;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.visualstrap-superhero .has-warning .form-control:focus {
+  border-color: #d2d2d2;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+}
+.visualstrap-superhero .has-warning .input-group-addon {
+  color: #ebebeb;
+  border-color: #ebebeb;
+  background-color: #f0ad4e;
+}
+.visualstrap-superhero .has-warning .form-control-feedback {
+  color: #ebebeb;
+}
+.visualstrap-superhero .has-error .help-block,
+.visualstrap-superhero .has-error .control-label,
+.visualstrap-superhero .has-error .radio,
+.visualstrap-superhero .has-error .checkbox,
+.visualstrap-superhero .has-error .radio-inline,
+.visualstrap-superhero .has-error .checkbox-inline {
+  color: #ebebeb;
+}
+.visualstrap-superhero .has-error .form-control {
+  border-color: #ebebeb;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.visualstrap-superhero .has-error .form-control:focus {
+  border-color: #d2d2d2;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+}
+.visualstrap-superhero .has-error .input-group-addon {
+  color: #ebebeb;
+  border-color: #ebebeb;
+  background-color: #d9534f;
+}
+.visualstrap-superhero .has-error .form-control-feedback {
+  color: #ebebeb;
+}
+.visualstrap-superhero .form-control-static {
+  margin-bottom: 0;
+}
+.visualstrap-superhero .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .visualstrap-superhero .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  .visualstrap-superhero .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .visualstrap-superhero .form-inline .radio,
+  .visualstrap-superhero .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    vertical-align: middle;
+  }
+  .visualstrap-superhero .form-inline .radio input[type="radio"],
+  .visualstrap-superhero .form-inline .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+  .visualstrap-superhero .form-inline .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+.visualstrap-superhero .form-horizontal .control-label,
+.visualstrap-superhero .form-horizontal .radio,
+.visualstrap-superhero .form-horizontal .checkbox,
+.visualstrap-superhero .form-horizontal .radio-inline,
+.visualstrap-superhero .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 9px;
+}
+.visualstrap-superhero .form-horizontal .radio,
+.visualstrap-superhero .form-horizontal .checkbox {
+  min-height: 30px;
+}
+.visualstrap-superhero .form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.visualstrap-superhero .form-horizontal .form-control-static {
+  padding-top: 9px;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .form-horizontal .control-label {
+    text-align: right;
+  }
+}
+.visualstrap-superhero .form-horizontal .has-feedback .form-control-feedback {
+  top: 0;
+  right: 15px;
+}
+.visualstrap-superhero .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 8px 16px;
+  font-size: 15px;
+  line-height: 1.428571429;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.visualstrap-superhero .btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.visualstrap-superhero .btn:hover,
+.visualstrap-superhero .btn:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+.visualstrap-superhero .btn:active,
+.visualstrap-superhero .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.visualstrap-superhero .btn.disabled,
+.visualstrap-superhero .btn[disabled],
+fieldset[disabled] .visualstrap-superhero .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.visualstrap-superhero .btn-default {
+  color: #ffffff;
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-default:hover,
+.visualstrap-superhero .btn-default:focus,
+.visualstrap-superhero .btn-default:active,
+.visualstrap-superhero .btn-default.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-default {
+  color: #ffffff;
+  background-color: #3d4954;
+  border-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .btn-default:active,
+.visualstrap-superhero .btn-default.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-default {
+  background-image: none;
+}
+.visualstrap-superhero .btn-default.disabled,
+.visualstrap-superhero .btn-default[disabled],
+fieldset[disabled] .visualstrap-superhero .btn-default,
+.visualstrap-superhero .btn-default.disabled:hover,
+.visualstrap-superhero .btn-default[disabled]:hover,
+fieldset[disabled] .visualstrap-superhero .btn-default:hover,
+.visualstrap-superhero .btn-default.disabled:focus,
+.visualstrap-superhero .btn-default[disabled]:focus,
+fieldset[disabled] .visualstrap-superhero .btn-default:focus,
+.visualstrap-superhero .btn-default.disabled:active,
+.visualstrap-superhero .btn-default[disabled]:active,
+fieldset[disabled] .visualstrap-superhero .btn-default:active,
+.visualstrap-superhero .btn-default.disabled.active,
+.visualstrap-superhero .btn-default[disabled].active,
+fieldset[disabled] .visualstrap-superhero .btn-default.active {
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-default .badge {
+  color: #4e5d6c;
+  background-color: #ffffff;
+}
+.visualstrap-superhero .btn-primary {
+  color: #ffffff;
+  background-color: #df691a;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-primary:hover,
+.visualstrap-superhero .btn-primary:focus,
+.visualstrap-superhero .btn-primary:active,
+.visualstrap-superhero .btn-primary.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-primary {
+  color: #ffffff;
+  background-color: #ba5816;
+  border-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .btn-primary:active,
+.visualstrap-superhero .btn-primary.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-primary {
+  background-image: none;
+}
+.visualstrap-superhero .btn-primary.disabled,
+.visualstrap-superhero .btn-primary[disabled],
+fieldset[disabled] .visualstrap-superhero .btn-primary,
+.visualstrap-superhero .btn-primary.disabled:hover,
+.visualstrap-superhero .btn-primary[disabled]:hover,
+fieldset[disabled] .visualstrap-superhero .btn-primary:hover,
+.visualstrap-superhero .btn-primary.disabled:focus,
+.visualstrap-superhero .btn-primary[disabled]:focus,
+fieldset[disabled] .visualstrap-superhero .btn-primary:focus,
+.visualstrap-superhero .btn-primary.disabled:active,
+.visualstrap-superhero .btn-primary[disabled]:active,
+fieldset[disabled] .visualstrap-superhero .btn-primary:active,
+.visualstrap-superhero .btn-primary.disabled.active,
+.visualstrap-superhero .btn-primary[disabled].active,
+fieldset[disabled] .visualstrap-superhero .btn-primary.active {
+  background-color: #df691a;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-primary .badge {
+  color: #df691a;
+  background-color: #ffffff;
+}
+.visualstrap-superhero .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-success:hover,
+.visualstrap-superhero .btn-success:focus,
+.visualstrap-superhero .btn-success:active,
+.visualstrap-superhero .btn-success.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .btn-success:active,
+.visualstrap-superhero .btn-success.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-success {
+  background-image: none;
+}
+.visualstrap-superhero .btn-success.disabled,
+.visualstrap-superhero .btn-success[disabled],
+fieldset[disabled] .visualstrap-superhero .btn-success,
+.visualstrap-superhero .btn-success.disabled:hover,
+.visualstrap-superhero .btn-success[disabled]:hover,
+fieldset[disabled] .visualstrap-superhero .btn-success:hover,
+.visualstrap-superhero .btn-success.disabled:focus,
+.visualstrap-superhero .btn-success[disabled]:focus,
+fieldset[disabled] .visualstrap-superhero .btn-success:focus,
+.visualstrap-superhero .btn-success.disabled:active,
+.visualstrap-superhero .btn-success[disabled]:active,
+fieldset[disabled] .visualstrap-superhero .btn-success:active,
+.visualstrap-superhero .btn-success.disabled.active,
+.visualstrap-superhero .btn-success[disabled].active,
+fieldset[disabled] .visualstrap-superhero .btn-success.active {
+  background-color: #5cb85c;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+.visualstrap-superhero .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-info:hover,
+.visualstrap-superhero .btn-info:focus,
+.visualstrap-superhero .btn-info:active,
+.visualstrap-superhero .btn-info.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .btn-info:active,
+.visualstrap-superhero .btn-info.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-info {
+  background-image: none;
+}
+.visualstrap-superhero .btn-info.disabled,
+.visualstrap-superhero .btn-info[disabled],
+fieldset[disabled] .visualstrap-superhero .btn-info,
+.visualstrap-superhero .btn-info.disabled:hover,
+.visualstrap-superhero .btn-info[disabled]:hover,
+fieldset[disabled] .visualstrap-superhero .btn-info:hover,
+.visualstrap-superhero .btn-info.disabled:focus,
+.visualstrap-superhero .btn-info[disabled]:focus,
+fieldset[disabled] .visualstrap-superhero .btn-info:focus,
+.visualstrap-superhero .btn-info.disabled:active,
+.visualstrap-superhero .btn-info[disabled]:active,
+fieldset[disabled] .visualstrap-superhero .btn-info:active,
+.visualstrap-superhero .btn-info.disabled.active,
+.visualstrap-superhero .btn-info[disabled].active,
+fieldset[disabled] .visualstrap-superhero .btn-info.active {
+  background-color: #5bc0de;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+.visualstrap-superhero .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-warning:hover,
+.visualstrap-superhero .btn-warning:focus,
+.visualstrap-superhero .btn-warning:active,
+.visualstrap-superhero .btn-warning.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .btn-warning:active,
+.visualstrap-superhero .btn-warning.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-warning {
+  background-image: none;
+}
+.visualstrap-superhero .btn-warning.disabled,
+.visualstrap-superhero .btn-warning[disabled],
+fieldset[disabled] .visualstrap-superhero .btn-warning,
+.visualstrap-superhero .btn-warning.disabled:hover,
+.visualstrap-superhero .btn-warning[disabled]:hover,
+fieldset[disabled] .visualstrap-superhero .btn-warning:hover,
+.visualstrap-superhero .btn-warning.disabled:focus,
+.visualstrap-superhero .btn-warning[disabled]:focus,
+fieldset[disabled] .visualstrap-superhero .btn-warning:focus,
+.visualstrap-superhero .btn-warning.disabled:active,
+.visualstrap-superhero .btn-warning[disabled]:active,
+fieldset[disabled] .visualstrap-superhero .btn-warning:active,
+.visualstrap-superhero .btn-warning.disabled.active,
+.visualstrap-superhero .btn-warning[disabled].active,
+fieldset[disabled] .visualstrap-superhero .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+.visualstrap-superhero .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-danger:hover,
+.visualstrap-superhero .btn-danger:focus,
+.visualstrap-superhero .btn-danger:active,
+.visualstrap-superhero .btn-danger.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .btn-danger:active,
+.visualstrap-superhero .btn-danger.active,
+.open .dropdown-toggle.visualstrap-superhero .btn-danger {
+  background-image: none;
+}
+.visualstrap-superhero .btn-danger.disabled,
+.visualstrap-superhero .btn-danger[disabled],
+fieldset[disabled] .visualstrap-superhero .btn-danger,
+.visualstrap-superhero .btn-danger.disabled:hover,
+.visualstrap-superhero .btn-danger[disabled]:hover,
+fieldset[disabled] .visualstrap-superhero .btn-danger:hover,
+.visualstrap-superhero .btn-danger.disabled:focus,
+.visualstrap-superhero .btn-danger[disabled]:focus,
+fieldset[disabled] .visualstrap-superhero .btn-danger:focus,
+.visualstrap-superhero .btn-danger.disabled:active,
+.visualstrap-superhero .btn-danger[disabled]:active,
+fieldset[disabled] .visualstrap-superhero .btn-danger:active,
+.visualstrap-superhero .btn-danger.disabled.active,
+.visualstrap-superhero .btn-danger[disabled].active,
+fieldset[disabled] .visualstrap-superhero .btn-danger.active {
+  background-color: #d9534f;
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+.visualstrap-superhero .btn-link {
+  color: #df691a;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-link,
+.visualstrap-superhero .btn-link:active,
+.visualstrap-superhero .btn-link[disabled],
+fieldset[disabled] .visualstrap-superhero .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.visualstrap-superhero .btn-link,
+.visualstrap-superhero .btn-link:hover,
+.visualstrap-superhero .btn-link:focus,
+.visualstrap-superhero .btn-link:active {
+  border-color: transparent;
+}
+.visualstrap-superhero .btn-link:hover,
+.visualstrap-superhero .btn-link:focus {
+  color: #df691a;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.visualstrap-superhero .btn-link[disabled]:hover,
+fieldset[disabled] .visualstrap-superhero .btn-link:hover,
+.visualstrap-superhero .btn-link[disabled]:focus,
+fieldset[disabled] .visualstrap-superhero .btn-link:focus {
+  color: #4e5d6c;
+  text-decoration: none;
+}
+.visualstrap-superhero .btn-lg {
+  padding: 12px 24px;
+  font-size: 19px;
+  line-height: 1.33;
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-sm {
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-xs {
+  padding: 1px 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.visualstrap-superhero .btn-block + .btn-block {
+  margin-top: 5px;
+}
+.visualstrap-superhero input[type="submit"].btn-block,
+.visualstrap-superhero input[type="reset"].btn-block,
+.visualstrap-superhero input[type="button"].btn-block {
+  width: 100%;
+}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.fade.in {
+  opacity: 1;
+}
+.visualstrap-superhero .collapse {
+  display: none;
+}
+.visualstrap-superhero .collapse.in {
+  display: block;
+}
+.visualstrap-superhero .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.visualstrap-superhero .glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.visualstrap-superhero .glyphicon-asterisk:before {
+  content: "\2a";
+}
+.visualstrap-superhero .glyphicon-plus:before {
+  content: "\2b";
+}
+.visualstrap-superhero .glyphicon-euro:before {
+  content: "\20ac";
+}
+.visualstrap-superhero .glyphicon-minus:before {
+  content: "\2212";
+}
+.visualstrap-superhero .glyphicon-cloud:before {
+  content: "\2601";
+}
+.visualstrap-superhero .glyphicon-envelope:before {
+  content: "\2709";
+}
+.visualstrap-superhero .glyphicon-pencil:before {
+  content: "\270f";
+}
+.visualstrap-superhero .glyphicon-glass:before {
+  content: "\e001";
+}
+.visualstrap-superhero .glyphicon-music:before {
+  content: "\e002";
+}
+.visualstrap-superhero .glyphicon-search:before {
+  content: "\e003";
+}
+.visualstrap-superhero .glyphicon-heart:before {
+  content: "\e005";
+}
+.visualstrap-superhero .glyphicon-star:before {
+  content: "\e006";
+}
+.visualstrap-superhero .glyphicon-star-empty:before {
+  content: "\e007";
+}
+.visualstrap-superhero .glyphicon-user:before {
+  content: "\e008";
+}
+.visualstrap-superhero .glyphicon-film:before {
+  content: "\e009";
+}
+.visualstrap-superhero .glyphicon-th-large:before {
+  content: "\e010";
+}
+.visualstrap-superhero .glyphicon-th:before {
+  content: "\e011";
+}
+.visualstrap-superhero .glyphicon-th-list:before {
+  content: "\e012";
+}
+.visualstrap-superhero .glyphicon-ok:before {
+  content: "\e013";
+}
+.visualstrap-superhero .glyphicon-remove:before {
+  content: "\e014";
+}
+.visualstrap-superhero .glyphicon-zoom-in:before {
+  content: "\e015";
+}
+.visualstrap-superhero .glyphicon-zoom-out:before {
+  content: "\e016";
+}
+.visualstrap-superhero .glyphicon-off:before {
+  content: "\e017";
+}
+.visualstrap-superhero .glyphicon-signal:before {
+  content: "\e018";
+}
+.visualstrap-superhero .glyphicon-cog:before {
+  content: "\e019";
+}
+.visualstrap-superhero .glyphicon-trash:before {
+  content: "\e020";
+}
+.visualstrap-superhero .glyphicon-home:before {
+  content: "\e021";
+}
+.visualstrap-superhero .glyphicon-file:before {
+  content: "\e022";
+}
+.visualstrap-superhero .glyphicon-time:before {
+  content: "\e023";
+}
+.visualstrap-superhero .glyphicon-road:before {
+  content: "\e024";
+}
+.visualstrap-superhero .glyphicon-download-alt:before {
+  content: "\e025";
+}
+.visualstrap-superhero .glyphicon-download:before {
+  content: "\e026";
+}
+.visualstrap-superhero .glyphicon-upload:before {
+  content: "\e027";
+}
+.visualstrap-superhero .glyphicon-inbox:before {
+  content: "\e028";
+}
+.visualstrap-superhero .glyphicon-play-circle:before {
+  content: "\e029";
+}
+.visualstrap-superhero .glyphicon-repeat:before {
+  content: "\e030";
+}
+.visualstrap-superhero .glyphicon-refresh:before {
+  content: "\e031";
+}
+.visualstrap-superhero .glyphicon-list-alt:before {
+  content: "\e032";
+}
+.visualstrap-superhero .glyphicon-lock:before {
+  content: "\e033";
+}
+.visualstrap-superhero .glyphicon-flag:before {
+  content: "\e034";
+}
+.visualstrap-superhero .glyphicon-headphones:before {
+  content: "\e035";
+}
+.visualstrap-superhero .glyphicon-volume-off:before {
+  content: "\e036";
+}
+.visualstrap-superhero .glyphicon-volume-down:before {
+  content: "\e037";
+}
+.visualstrap-superhero .glyphicon-volume-up:before {
+  content: "\e038";
+}
+.visualstrap-superhero .glyphicon-qrcode:before {
+  content: "\e039";
+}
+.visualstrap-superhero .glyphicon-barcode:before {
+  content: "\e040";
+}
+.visualstrap-superhero .glyphicon-tag:before {
+  content: "\e041";
+}
+.visualstrap-superhero .glyphicon-tags:before {
+  content: "\e042";
+}
+.visualstrap-superhero .glyphicon-book:before {
+  content: "\e043";
+}
+.visualstrap-superhero .glyphicon-bookmark:before {
+  content: "\e044";
+}
+.visualstrap-superhero .glyphicon-print:before {
+  content: "\e045";
+}
+.visualstrap-superhero .glyphicon-camera:before {
+  content: "\e046";
+}
+.visualstrap-superhero .glyphicon-font:before {
+  content: "\e047";
+}
+.visualstrap-superhero .glyphicon-bold:before {
+  content: "\e048";
+}
+.visualstrap-superhero .glyphicon-italic:before {
+  content: "\e049";
+}
+.visualstrap-superhero .glyphicon-text-height:before {
+  content: "\e050";
+}
+.visualstrap-superhero .glyphicon-text-width:before {
+  content: "\e051";
+}
+.visualstrap-superhero .glyphicon-align-left:before {
+  content: "\e052";
+}
+.visualstrap-superhero .glyphicon-align-center:before {
+  content: "\e053";
+}
+.visualstrap-superhero .glyphicon-align-right:before {
+  content: "\e054";
+}
+.visualstrap-superhero .glyphicon-align-justify:before {
+  content: "\e055";
+}
+.visualstrap-superhero .glyphicon-list:before {
+  content: "\e056";
+}
+.visualstrap-superhero .glyphicon-indent-left:before {
+  content: "\e057";
+}
+.visualstrap-superhero .glyphicon-indent-right:before {
+  content: "\e058";
+}
+.visualstrap-superhero .glyphicon-facetime-video:before {
+  content: "\e059";
+}
+.visualstrap-superhero .glyphicon-picture:before {
+  content: "\e060";
+}
+.visualstrap-superhero .glyphicon-map-marker:before {
+  content: "\e062";
+}
+.visualstrap-superhero .glyphicon-adjust:before {
+  content: "\e063";
+}
+.visualstrap-superhero .glyphicon-tint:before {
+  content: "\e064";
+}
+.visualstrap-superhero .glyphicon-edit:before {
+  content: "\e065";
+}
+.visualstrap-superhero .glyphicon-share:before {
+  content: "\e066";
+}
+.visualstrap-superhero .glyphicon-check:before {
+  content: "\e067";
+}
+.visualstrap-superhero .glyphicon-move:before {
+  content: "\e068";
+}
+.visualstrap-superhero .glyphicon-step-backward:before {
+  content: "\e069";
+}
+.visualstrap-superhero .glyphicon-fast-backward:before {
+  content: "\e070";
+}
+.visualstrap-superhero .glyphicon-backward:before {
+  content: "\e071";
+}
+.visualstrap-superhero .glyphicon-play:before {
+  content: "\e072";
+}
+.visualstrap-superhero .glyphicon-pause:before {
+  content: "\e073";
+}
+.visualstrap-superhero .glyphicon-stop:before {
+  content: "\e074";
+}
+.visualstrap-superhero .glyphicon-forward:before {
+  content: "\e075";
+}
+.visualstrap-superhero .glyphicon-fast-forward:before {
+  content: "\e076";
+}
+.visualstrap-superhero .glyphicon-step-forward:before {
+  content: "\e077";
+}
+.visualstrap-superhero .glyphicon-eject:before {
+  content: "\e078";
+}
+.visualstrap-superhero .glyphicon-chevron-left:before {
+  content: "\e079";
+}
+.visualstrap-superhero .glyphicon-chevron-right:before {
+  content: "\e080";
+}
+.visualstrap-superhero .glyphicon-plus-sign:before {
+  content: "\e081";
+}
+.visualstrap-superhero .glyphicon-minus-sign:before {
+  content: "\e082";
+}
+.visualstrap-superhero .glyphicon-remove-sign:before {
+  content: "\e083";
+}
+.visualstrap-superhero .glyphicon-ok-sign:before {
+  content: "\e084";
+}
+.visualstrap-superhero .glyphicon-question-sign:before {
+  content: "\e085";
+}
+.visualstrap-superhero .glyphicon-info-sign:before {
+  content: "\e086";
+}
+.visualstrap-superhero .glyphicon-screenshot:before {
+  content: "\e087";
+}
+.visualstrap-superhero .glyphicon-remove-circle:before {
+  content: "\e088";
+}
+.visualstrap-superhero .glyphicon-ok-circle:before {
+  content: "\e089";
+}
+.visualstrap-superhero .glyphicon-ban-circle:before {
+  content: "\e090";
+}
+.visualstrap-superhero .glyphicon-arrow-left:before {
+  content: "\e091";
+}
+.visualstrap-superhero .glyphicon-arrow-right:before {
+  content: "\e092";
+}
+.visualstrap-superhero .glyphicon-arrow-up:before {
+  content: "\e093";
+}
+.visualstrap-superhero .glyphicon-arrow-down:before {
+  content: "\e094";
+}
+.visualstrap-superhero .glyphicon-share-alt:before {
+  content: "\e095";
+}
+.visualstrap-superhero .glyphicon-resize-full:before {
+  content: "\e096";
+}
+.visualstrap-superhero .glyphicon-resize-small:before {
+  content: "\e097";
+}
+.visualstrap-superhero .glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+.visualstrap-superhero .glyphicon-gift:before {
+  content: "\e102";
+}
+.visualstrap-superhero .glyphicon-leaf:before {
+  content: "\e103";
+}
+.visualstrap-superhero .glyphicon-fire:before {
+  content: "\e104";
+}
+.visualstrap-superhero .glyphicon-eye-open:before {
+  content: "\e105";
+}
+.visualstrap-superhero .glyphicon-eye-close:before {
+  content: "\e106";
+}
+.visualstrap-superhero .glyphicon-warning-sign:before {
+  content: "\e107";
+}
+.visualstrap-superhero .glyphicon-plane:before {
+  content: "\e108";
+}
+.visualstrap-superhero .glyphicon-calendar:before {
+  content: "\e109";
+}
+.visualstrap-superhero .glyphicon-random:before {
+  content: "\e110";
+}
+.visualstrap-superhero .glyphicon-comment:before {
+  content: "\e111";
+}
+.visualstrap-superhero .glyphicon-magnet:before {
+  content: "\e112";
+}
+.visualstrap-superhero .glyphicon-chevron-up:before {
+  content: "\e113";
+}
+.visualstrap-superhero .glyphicon-chevron-down:before {
+  content: "\e114";
+}
+.visualstrap-superhero .glyphicon-retweet:before {
+  content: "\e115";
+}
+.visualstrap-superhero .glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+.visualstrap-superhero .glyphicon-folder-close:before {
+  content: "\e117";
+}
+.visualstrap-superhero .glyphicon-folder-open:before {
+  content: "\e118";
+}
+.visualstrap-superhero .glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+.visualstrap-superhero .glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+.visualstrap-superhero .glyphicon-hdd:before {
+  content: "\e121";
+}
+.visualstrap-superhero .glyphicon-bullhorn:before {
+  content: "\e122";
+}
+.visualstrap-superhero .glyphicon-bell:before {
+  content: "\e123";
+}
+.visualstrap-superhero .glyphicon-certificate:before {
+  content: "\e124";
+}
+.visualstrap-superhero .glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+.visualstrap-superhero .glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+.visualstrap-superhero .glyphicon-hand-right:before {
+  content: "\e127";
+}
+.visualstrap-superhero .glyphicon-hand-left:before {
+  content: "\e128";
+}
+.visualstrap-superhero .glyphicon-hand-up:before {
+  content: "\e129";
+}
+.visualstrap-superhero .glyphicon-hand-down:before {
+  content: "\e130";
+}
+.visualstrap-superhero .glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+.visualstrap-superhero .glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+.visualstrap-superhero .glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+.visualstrap-superhero .glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+.visualstrap-superhero .glyphicon-globe:before {
+  content: "\e135";
+}
+.visualstrap-superhero .glyphicon-wrench:before {
+  content: "\e136";
+}
+.visualstrap-superhero .glyphicon-tasks:before {
+  content: "\e137";
+}
+.visualstrap-superhero .glyphicon-filter:before {
+  content: "\e138";
+}
+.visualstrap-superhero .glyphicon-briefcase:before {
+  content: "\e139";
+}
+.visualstrap-superhero .glyphicon-fullscreen:before {
+  content: "\e140";
+}
+.visualstrap-superhero .glyphicon-dashboard:before {
+  content: "\e141";
+}
+.visualstrap-superhero .glyphicon-paperclip:before {
+  content: "\e142";
+}
+.visualstrap-superhero .glyphicon-heart-empty:before {
+  content: "\e143";
+}
+.visualstrap-superhero .glyphicon-link:before {
+  content: "\e144";
+}
+.visualstrap-superhero .glyphicon-phone:before {
+  content: "\e145";
+}
+.visualstrap-superhero .glyphicon-pushpin:before {
+  content: "\e146";
+}
+.visualstrap-superhero .glyphicon-usd:before {
+  content: "\e148";
+}
+.visualstrap-superhero .glyphicon-gbp:before {
+  content: "\e149";
+}
+.visualstrap-superhero .glyphicon-sort:before {
+  content: "\e150";
+}
+.visualstrap-superhero .glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+.visualstrap-superhero .glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+.visualstrap-superhero .glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+.visualstrap-superhero .glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+.visualstrap-superhero .glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+.visualstrap-superhero .glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+.visualstrap-superhero .glyphicon-unchecked:before {
+  content: "\e157";
+}
+.visualstrap-superhero .glyphicon-expand:before {
+  content: "\e158";
+}
+.visualstrap-superhero .glyphicon-collapse-down:before {
+  content: "\e159";
+}
+.visualstrap-superhero .glyphicon-collapse-up:before {
+  content: "\e160";
+}
+.visualstrap-superhero .glyphicon-log-in:before {
+  content: "\e161";
+}
+.visualstrap-superhero .glyphicon-flash:before {
+  content: "\e162";
+}
+.visualstrap-superhero .glyphicon-log-out:before {
+  content: "\e163";
+}
+.visualstrap-superhero .glyphicon-new-window:before {
+  content: "\e164";
+}
+.visualstrap-superhero .glyphicon-record:before {
+  content: "\e165";
+}
+.visualstrap-superhero .glyphicon-save:before {
+  content: "\e166";
+}
+.visualstrap-superhero .glyphicon-open:before {
+  content: "\e167";
+}
+.visualstrap-superhero .glyphicon-saved:before {
+  content: "\e168";
+}
+.visualstrap-superhero .glyphicon-import:before {
+  content: "\e169";
+}
+.visualstrap-superhero .glyphicon-export:before {
+  content: "\e170";
+}
+.visualstrap-superhero .glyphicon-send:before {
+  content: "\e171";
+}
+.visualstrap-superhero .glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+.visualstrap-superhero .glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+.visualstrap-superhero .glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+.visualstrap-superhero .glyphicon-floppy-save:before {
+  content: "\e175";
+}
+.visualstrap-superhero .glyphicon-floppy-open:before {
+  content: "\e176";
+}
+.visualstrap-superhero .glyphicon-credit-card:before {
+  content: "\e177";
+}
+.visualstrap-superhero .glyphicon-transfer:before {
+  content: "\e178";
+}
+.visualstrap-superhero .glyphicon-cutlery:before {
+  content: "\e179";
+}
+.visualstrap-superhero .glyphicon-header:before {
+  content: "\e180";
+}
+.visualstrap-superhero .glyphicon-compressed:before {
+  content: "\e181";
+}
+.visualstrap-superhero .glyphicon-earphone:before {
+  content: "\e182";
+}
+.visualstrap-superhero .glyphicon-phone-alt:before {
+  content: "\e183";
+}
+.visualstrap-superhero .glyphicon-tower:before {
+  content: "\e184";
+}
+.visualstrap-superhero .glyphicon-stats:before {
+  content: "\e185";
+}
+.visualstrap-superhero .glyphicon-sd-video:before {
+  content: "\e186";
+}
+.visualstrap-superhero .glyphicon-hd-video:before {
+  content: "\e187";
+}
+.visualstrap-superhero .glyphicon-subtitles:before {
+  content: "\e188";
+}
+.visualstrap-superhero .glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+.visualstrap-superhero .glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+.visualstrap-superhero .glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+.visualstrap-superhero .glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+.visualstrap-superhero .glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+.visualstrap-superhero .glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+.visualstrap-superhero .glyphicon-registration-mark:before {
+  content: "\e195";
+}
+.visualstrap-superhero .glyphicon-cloud-download:before {
+  content: "\e197";
+}
+.visualstrap-superhero .glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+.visualstrap-superhero .glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+.visualstrap-superhero .glyphicon-tree-deciduous:before {
+  content: "\e200";
+}
+.visualstrap-superhero .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.visualstrap-superhero .dropdown {
+  position: relative;
+}
+.visualstrap-superhero .dropdown-toggle:focus {
+  outline: 0;
+}
+.visualstrap-superhero .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 15px;
+  background-color: #4e5d6c;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.visualstrap-superhero .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.visualstrap-superhero .dropdown-menu .divider {
+  height: 1px;
+  margin: 9.5px 0;
+  overflow: hidden;
+  background-color: #2b3e50;
+}
+.visualstrap-superhero .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #ebebeb;
+  white-space: nowrap;
+}
+.visualstrap-superhero .dropdown-menu > li > a:hover,
+.visualstrap-superhero .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ebebeb;
+  background-color: #485563;
+}
+.visualstrap-superhero .dropdown-menu > .active > a,
+.visualstrap-superhero .dropdown-menu > .active > a:hover,
+.visualstrap-superhero .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #df691a;
+}
+.visualstrap-superhero .dropdown-menu > .disabled > a,
+.visualstrap-superhero .dropdown-menu > .disabled > a:hover,
+.visualstrap-superhero .dropdown-menu > .disabled > a:focus {
+  color: #2b3e50;
+}
+.visualstrap-superhero .dropdown-menu > .disabled > a:hover,
+.visualstrap-superhero .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.visualstrap-superhero .open > .dropdown-menu {
+  display: block;
+}
+.visualstrap-superhero .open > a {
+  outline: 0;
+}
+.visualstrap-superhero .dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+.visualstrap-superhero .dropdown-menu-left {
+  left: 0;
+  right: auto;
+}
+.visualstrap-superhero .dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  color: #2b3e50;
+}
+.visualstrap-superhero .dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+.visualstrap-superhero .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.visualstrap-superhero .dropup .caret,
+.visualstrap-superhero .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px solid;
+  content: "";
+}
+.visualstrap-superhero .dropup .dropdown-menu,
+.visualstrap-superhero .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+  .visualstrap-superhero .navbar-right .dropdown-menu-left {
+    left: 0;
+    right: auto;
+  }
+}
+.visualstrap-superhero .btn-group,
+.visualstrap-superhero .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.visualstrap-superhero .btn-group > .btn,
+.visualstrap-superhero .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+.visualstrap-superhero .btn-group > .btn:hover,
+.visualstrap-superhero .btn-group-vertical > .btn:hover,
+.visualstrap-superhero .btn-group > .btn:focus,
+.visualstrap-superhero .btn-group-vertical > .btn:focus,
+.visualstrap-superhero .btn-group > .btn:active,
+.visualstrap-superhero .btn-group-vertical > .btn:active,
+.visualstrap-superhero .btn-group > .btn.active,
+.visualstrap-superhero .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+.visualstrap-superhero .btn-group > .btn:focus,
+.visualstrap-superhero .btn-group-vertical > .btn:focus {
+  outline: none;
+}
+.visualstrap-superhero .btn-group .btn + .btn,
+.visualstrap-superhero .btn-group .btn + .btn-group,
+.visualstrap-superhero .btn-group .btn-group + .btn,
+.visualstrap-superhero .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+.visualstrap-superhero .btn-toolbar {
+  margin-left: -5px;
+}
+.visualstrap-superhero .btn-toolbar .btn-group,
+.visualstrap-superhero .btn-toolbar .input-group {
+  float: left;
+}
+.visualstrap-superhero .btn-toolbar > .btn,
+.visualstrap-superhero .btn-toolbar > .btn-group,
+.visualstrap-superhero .btn-toolbar > .input-group {
+  margin-left: 5px;
+}
+.visualstrap-superhero .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+.visualstrap-superhero .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.visualstrap-superhero .btn-group > .btn:last-child:not(:first-child),
+.visualstrap-superhero .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .btn-group > .btn-group {
+  float: left;
+}
+.visualstrap-superhero .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-group > .btn-group:first-child > .btn:last-child,
+.visualstrap-superhero .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.visualstrap-superhero .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .btn-group .dropdown-toggle:active,
+.visualstrap-superhero .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+.visualstrap-superhero .btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-group-lg > .btn {
+  padding: 12px 24px;
+  font-size: 19px;
+  line-height: 1.33;
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.visualstrap-superhero .btn-group > .btn-lg + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.visualstrap-superhero .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.visualstrap-superhero .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.visualstrap-superhero .btn .caret {
+  margin-left: 0;
+}
+.visualstrap-superhero .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+.visualstrap-superhero .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+.visualstrap-superhero .btn-group-vertical > .btn,
+.visualstrap-superhero .btn-group-vertical > .btn-group,
+.visualstrap-superhero .btn-group-vertical > .btn-group > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+.visualstrap-superhero .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+.visualstrap-superhero .btn-group-vertical > .btn + .btn,
+.visualstrap-superhero .btn-group-vertical > .btn + .btn-group,
+.visualstrap-superhero .btn-group-vertical > .btn-group + .btn,
+.visualstrap-superhero .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+.visualstrap-superhero .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.visualstrap-superhero .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.visualstrap-superhero .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.visualstrap-superhero .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.visualstrap-superhero .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+.visualstrap-superhero .btn-group-justified > .btn,
+.visualstrap-superhero .btn-group-justified > .btn-group {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+.visualstrap-superhero .btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+.visualstrap-superhero [data-toggle="buttons"] > .btn > input[type="radio"],
+.visualstrap-superhero [data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  display: none;
+}
+.visualstrap-superhero .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.visualstrap-superhero .input-group[class*="col-"] {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.visualstrap-superhero .input-group .form-control {
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+.visualstrap-superhero .input-group-lg > .form-control,
+.visualstrap-superhero .input-group-lg > .input-group-addon,
+.visualstrap-superhero .input-group-lg > .input-group-btn > .btn {
+  height: 52px;
+  padding: 12px 24px;
+  font-size: 19px;
+  line-height: 1.33;
+  border-radius: 0;
+}
+select.visualstrap-superhero .input-group-lg > .form-control,
+select.visualstrap-superhero .input-group-lg > .input-group-addon,
+select.visualstrap-superhero .input-group-lg > .input-group-btn > .btn {
+  height: 52px;
+  line-height: 52px;
+}
+.visualstrap-superhero textarea.input-group-lg > .form-control,
+.visualstrap-superhero textarea.input-group-lg > .input-group-addon,
+.visualstrap-superhero textarea.input-group-lg > .input-group-btn > .btn,
+select[multiple].visualstrap-superhero .input-group-lg > .form-control,
+select[multiple].visualstrap-superhero .input-group-lg > .input-group-addon,
+select[multiple].visualstrap-superhero .input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+.visualstrap-superhero .input-group-sm > .form-control,
+.visualstrap-superhero .input-group-sm > .input-group-addon,
+.visualstrap-superhero .input-group-sm > .input-group-btn > .btn {
+  height: 31px;
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 0;
+}
+select.visualstrap-superhero .input-group-sm > .form-control,
+select.visualstrap-superhero .input-group-sm > .input-group-addon,
+select.visualstrap-superhero .input-group-sm > .input-group-btn > .btn {
+  height: 31px;
+  line-height: 31px;
+}
+.visualstrap-superhero textarea.input-group-sm > .form-control,
+.visualstrap-superhero textarea.input-group-sm > .input-group-addon,
+.visualstrap-superhero textarea.input-group-sm > .input-group-btn > .btn,
+select[multiple].visualstrap-superhero .input-group-sm > .form-control,
+select[multiple].visualstrap-superhero .input-group-sm > .input-group-addon,
+select[multiple].visualstrap-superhero .input-group-sm > .input-group-btn > .btn {
+  height: auto;
+}
+.visualstrap-superhero .input-group-addon,
+.visualstrap-superhero .input-group-btn,
+.visualstrap-superhero .input-group .form-control {
+  display: table-cell;
+}
+.visualstrap-superhero .input-group-addon:not(:first-child):not(:last-child),
+.visualstrap-superhero .input-group-btn:not(:first-child):not(:last-child),
+.visualstrap-superhero .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.visualstrap-superhero .input-group-addon,
+.visualstrap-superhero .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.visualstrap-superhero .input-group-addon {
+  padding: 8px 16px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1;
+  color: #2b3e50;
+  text-align: center;
+  background-color: #4e5d6c;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.visualstrap-superhero .input-group-addon.input-sm {
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 0;
+}
+.visualstrap-superhero .input-group-addon.input-lg {
+  padding: 12px 24px;
+  font-size: 19px;
+  border-radius: 0;
+}
+.visualstrap-superhero .input-group-addon input[type="radio"],
+.visualstrap-superhero .input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+.visualstrap-superhero .input-group .form-control:first-child,
+.visualstrap-superhero .input-group-addon:first-child,
+.visualstrap-superhero .input-group-btn:first-child > .btn,
+.visualstrap-superhero .input-group-btn:first-child > .btn-group > .btn,
+.visualstrap-superhero .input-group-btn:first-child > .dropdown-toggle,
+.visualstrap-superhero .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.visualstrap-superhero .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.visualstrap-superhero .input-group-addon:first-child {
+  border-right: 0;
+}
+.visualstrap-superhero .input-group .form-control:last-child,
+.visualstrap-superhero .input-group-addon:last-child,
+.visualstrap-superhero .input-group-btn:last-child > .btn,
+.visualstrap-superhero .input-group-btn:last-child > .btn-group > .btn,
+.visualstrap-superhero .input-group-btn:last-child > .dropdown-toggle,
+.visualstrap-superhero .input-group-btn:first-child > .btn:not(:first-child),
+.visualstrap-superhero .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .input-group-addon:last-child {
+  border-left: 0;
+}
+.visualstrap-superhero .input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+}
+.visualstrap-superhero .input-group-btn > .btn {
+  position: relative;
+}
+.visualstrap-superhero .input-group-btn > .btn + .btn {
+  margin-left: -1px;
+}
+.visualstrap-superhero .input-group-btn > .btn:hover,
+.visualstrap-superhero .input-group-btn > .btn:focus,
+.visualstrap-superhero .input-group-btn > .btn:active {
+  z-index: 2;
+}
+.visualstrap-superhero .input-group-btn:first-child > .btn,
+.visualstrap-superhero .input-group-btn:first-child > .btn-group {
+  margin-right: -1px;
+}
+.visualstrap-superhero .input-group-btn:last-child > .btn,
+.visualstrap-superhero .input-group-btn:last-child > .btn-group {
+  margin-left: -1px;
+}
+.visualstrap-superhero .nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.visualstrap-superhero .nav > li {
+  position: relative;
+  display: block;
+}
+.visualstrap-superhero .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.visualstrap-superhero .nav > li > a:hover,
+.visualstrap-superhero .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #4e5d6c;
+}
+.visualstrap-superhero .nav > li.disabled > a {
+  color: #4e5d6c;
+}
+.visualstrap-superhero .nav > li.disabled > a:hover,
+.visualstrap-superhero .nav > li.disabled > a:focus {
+  color: #4e5d6c;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+.visualstrap-superhero .nav .open > a,
+.visualstrap-superhero .nav .open > a:hover,
+.visualstrap-superhero .nav .open > a:focus {
+  background-color: #4e5d6c;
+  border-color: #df691a;
+}
+.visualstrap-superhero .nav .nav-divider {
+  height: 1px;
+  margin: 9.5px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.visualstrap-superhero .nav > li > a > img {
+  max-width: none;
+}
+.visualstrap-superhero .nav-tabs {
+  border-bottom: 1px solid transparent;
+}
+.visualstrap-superhero .nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.visualstrap-superhero .nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 0 0 0 0;
+}
+.visualstrap-superhero .nav-tabs > li > a:hover {
+  border-color: #4e5d6c #4e5d6c transparent;
+}
+.visualstrap-superhero .nav-tabs > li.active > a,
+.visualstrap-superhero .nav-tabs > li.active > a:hover,
+.visualstrap-superhero .nav-tabs > li.active > a:focus {
+  color: #ebebeb;
+  background-color: #2b3e50;
+  border: 1px solid #4e5d6c;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.visualstrap-superhero .nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.visualstrap-superhero .nav-tabs.nav-justified > li {
+  float: none;
+}
+.visualstrap-superhero .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.visualstrap-superhero .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .visualstrap-superhero .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.visualstrap-superhero .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 0;
+}
+.visualstrap-superhero .nav-tabs.nav-justified > .active > a,
+.visualstrap-superhero .nav-tabs.nav-justified > .active > a:hover,
+.visualstrap-superhero .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #4e5d6c;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #4e5d6c;
+    border-radius: 0 0 0 0;
+  }
+  .visualstrap-superhero .nav-tabs.nav-justified > .active > a,
+  .visualstrap-superhero .nav-tabs.nav-justified > .active > a:hover,
+  .visualstrap-superhero .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #4e5d6c;
+  }
+}
+.visualstrap-superhero .nav-pills > li {
+  float: left;
+}
+.visualstrap-superhero .nav-pills > li > a {
+  border-radius: 0;
+}
+.visualstrap-superhero .nav-pills > li + li {
+  margin-left: 2px;
+}
+.visualstrap-superhero .nav-pills > li.active > a,
+.visualstrap-superhero .nav-pills > li.active > a:hover,
+.visualstrap-superhero .nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #df691a;
+}
+.visualstrap-superhero .nav-stacked > li {
+  float: none;
+}
+.visualstrap-superhero .nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+.visualstrap-superhero .nav-justified {
+  width: 100%;
+}
+.visualstrap-superhero .nav-justified > li {
+  float: none;
+}
+.visualstrap-superhero .nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.visualstrap-superhero .nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .visualstrap-superhero .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.visualstrap-superhero .nav-tabs-justified {
+  border-bottom: 0;
+}
+.visualstrap-superhero .nav-tabs-justified > li > a {
+  margin-right: 0;
+  border-radius: 0;
+}
+.visualstrap-superhero .nav-tabs-justified > .active > a,
+.visualstrap-superhero .nav-tabs-justified > .active > a:hover,
+.visualstrap-superhero .nav-tabs-justified > .active > a:focus {
+  border: 1px solid #4e5d6c;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #4e5d6c;
+    border-radius: 0 0 0 0;
+  }
+  .visualstrap-superhero .nav-tabs-justified > .active > a,
+  .visualstrap-superhero .nav-tabs-justified > .active > a:hover,
+  .visualstrap-superhero .nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #4e5d6c;
+  }
+}
+.visualstrap-superhero .tab-content > .tab-pane {
+  display: none;
+}
+.visualstrap-superhero .tab-content > .active {
+  display: block;
+}
+.visualstrap-superhero .nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .navbar {
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 21px;
+  border: 1px solid transparent;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar {
+    border-radius: 0;
+  }
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-header {
+    float: left;
+  }
+}
+.visualstrap-superhero .navbar-collapse {
+  max-height: 340px;
+  overflow-x: visible;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
+.visualstrap-superhero .navbar-collapse.in {
+  overflow-y: auto;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+  .visualstrap-superhero .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .visualstrap-superhero .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar-fixed-top .visualstrap-superhero .navbar-collapse,
+  .navbar-static-top .visualstrap-superhero .navbar-collapse,
+  .navbar-fixed-bottom .visualstrap-superhero .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.visualstrap-superhero .container > .navbar-header,
+.visualstrap-superhero .container-fluid > .navbar-header,
+.visualstrap-superhero .container > .navbar-collapse,
+.visualstrap-superhero .container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .container > .navbar-header,
+  .visualstrap-superhero .container-fluid > .navbar-header,
+  .visualstrap-superhero .container > .navbar-collapse,
+  .visualstrap-superhero .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.visualstrap-superhero .navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-static-top {
+    border-radius: 0;
+  }
+}
+.visualstrap-superhero .navbar-fixed-top,
+.visualstrap-superhero .navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-fixed-top,
+  .visualstrap-superhero .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+.visualstrap-superhero .navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+.visualstrap-superhero .navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+.visualstrap-superhero .navbar-brand {
+  float: left;
+  padding: 9.5px 15px;
+  font-size: 19px;
+  line-height: 21px;
+  height: 21px;
+}
+.visualstrap-superhero .navbar-brand:hover,
+.visualstrap-superhero .navbar-brand:focus {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .navbar > .container .visualstrap-superhero .navbar-brand,
+  .navbar > .container-fluid .visualstrap-superhero .navbar-brand {
+    margin-left: -15px;
+  }
+}
+.visualstrap-superhero .navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.visualstrap-superhero .navbar-toggle:focus {
+  outline: none;
+}
+.visualstrap-superhero .navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.visualstrap-superhero .navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-toggle {
+    display: none;
+  }
+}
+.visualstrap-superhero .navbar-nav {
+  margin: 4.75px -15px;
+}
+.visualstrap-superhero .navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 21px;
+}
+@media (max-width: 767px) {
+  .visualstrap-superhero .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  .visualstrap-superhero .navbar-nav .open .dropdown-menu > li > a,
+  .visualstrap-superhero .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  .visualstrap-superhero .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 21px;
+  }
+  .visualstrap-superhero .navbar-nav .open .dropdown-menu > li > a:hover,
+  .visualstrap-superhero .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .visualstrap-superhero .navbar-nav > li {
+    float: left;
+  }
+  .visualstrap-superhero .navbar-nav > li > a {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+  }
+  .visualstrap-superhero .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-left {
+    float: left !important;
+  }
+  .visualstrap-superhero .navbar-right {
+    float: right !important;
+  }
+}
+.visualstrap-superhero .navbar-form {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px 15px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 0.5px;
+  margin-bottom: 0.5px;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .visualstrap-superhero .navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  .visualstrap-superhero .navbar-form .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .visualstrap-superhero .navbar-form .radio,
+  .visualstrap-superhero .navbar-form .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    vertical-align: middle;
+  }
+  .visualstrap-superhero .navbar-form .radio input[type="radio"],
+  .visualstrap-superhero .navbar-form .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+  .visualstrap-superhero .navbar-form .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .visualstrap-superhero .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-form {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .visualstrap-superhero .navbar-form.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+.visualstrap-superhero .navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.visualstrap-superhero .navbar-btn {
+  margin-top: 0.5px;
+  margin-bottom: 0.5px;
+}
+.visualstrap-superhero .navbar-btn.btn-sm {
+  margin-top: 4.5px;
+  margin-bottom: 4.5px;
+}
+.visualstrap-superhero .navbar-btn.btn-xs {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.visualstrap-superhero .navbar-text {
+  margin-top: 9.5px;
+  margin-bottom: 9.5px;
+}
+@media (min-width: 768px) {
+  .visualstrap-superhero .navbar-text {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .visualstrap-superhero .navbar-text.navbar-right:last-child {
+    margin-right: 0;
+  }
+}
+.visualstrap-superhero .navbar-default {
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.visualstrap-superhero .navbar-default .navbar-brand {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-default .navbar-brand:hover,
+.visualstrap-superhero .navbar-default .navbar-brand:focus {
+  color: #ebebeb;
+  background-color: transparent;
+}
+.visualstrap-superhero .navbar-default .navbar-text {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-default .navbar-nav > li > a {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-default .navbar-nav > li > a:hover,
+.visualstrap-superhero .navbar-default .navbar-nav > li > a:focus {
+  color: #ebebeb;
+  background-color: #485563;
+}
+.visualstrap-superhero .navbar-default .navbar-nav > .active > a,
+.visualstrap-superhero .navbar-default .navbar-nav > .active > a:hover,
+.visualstrap-superhero .navbar-default .navbar-nav > .active > a:focus {
+  color: #ebebeb;
+  background-color: #485563;
+}
+.visualstrap-superhero .navbar-default .navbar-nav > .disabled > a,
+.visualstrap-superhero .navbar-default .navbar-nav > .disabled > a:hover,
+.visualstrap-superhero .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.visualstrap-superhero .navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.visualstrap-superhero .navbar-default .navbar-toggle:hover,
+.visualstrap-superhero .navbar-default .navbar-toggle:focus {
+  background-color: #485563;
+}
+.visualstrap-superhero .navbar-default .navbar-toggle .icon-bar {
+  background-color: #ebebeb;
+}
+.visualstrap-superhero .navbar-default .navbar-collapse,
+.visualstrap-superhero .navbar-default .navbar-form {
+  border-color: transparent;
+}
+.visualstrap-superhero .navbar-default .navbar-nav > .open > a,
+.visualstrap-superhero .navbar-default .navbar-nav > .open > a:hover,
+.visualstrap-superhero .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #485563;
+  color: #ebebeb;
+}
+@media (max-width: 767px) {
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ebebeb;
+  }
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ebebeb;
+    background-color: #485563;
+  }
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ebebeb;
+    background-color: #485563;
+  }
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .visualstrap-superhero .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.visualstrap-superhero .navbar-default .navbar-link {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-default .navbar-link:hover {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-inverse {
+  background-color: #df691a;
+  border-color: transparent;
+}
+.visualstrap-superhero .navbar-inverse .navbar-brand {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-inverse .navbar-brand:hover,
+.visualstrap-superhero .navbar-inverse .navbar-brand:focus {
+  color: #ebebeb;
+  background-color: transparent;
+}
+.visualstrap-superhero .navbar-inverse .navbar-text {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-inverse .navbar-nav > li > a {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-inverse .navbar-nav > li > a:hover,
+.visualstrap-superhero .navbar-inverse .navbar-nav > li > a:focus {
+  color: #ebebeb;
+  background-color: #c85e17;
+}
+.visualstrap-superhero .navbar-inverse .navbar-nav > .active > a,
+.visualstrap-superhero .navbar-inverse .navbar-nav > .active > a:hover,
+.visualstrap-superhero .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ebebeb;
+  background-color: #c85e17;
+}
+.visualstrap-superhero .navbar-inverse .navbar-nav > .disabled > a,
+.visualstrap-superhero .navbar-inverse .navbar-nav > .disabled > a:hover,
+.visualstrap-superhero .navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+.visualstrap-superhero .navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+.visualstrap-superhero .navbar-inverse .navbar-toggle:hover,
+.visualstrap-superhero .navbar-inverse .navbar-toggle:focus {
+  background-color: #c85e17;
+}
+.visualstrap-superhero .navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ebebeb;
+}
+.visualstrap-superhero .navbar-inverse .navbar-collapse,
+.visualstrap-superhero .navbar-inverse .navbar-form {
+  border-color: #bf5a16;
+}
+.visualstrap-superhero .navbar-inverse .navbar-nav > .open > a,
+.visualstrap-superhero .navbar-inverse .navbar-nav > .open > a:hover,
+.visualstrap-superhero .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #c85e17;
+  color: #ebebeb;
+}
+@media (max-width: 767px) {
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: transparent;
+  }
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: transparent;
+  }
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #ebebeb;
+  }
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ebebeb;
+    background-color: #c85e17;
+  }
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ebebeb;
+    background-color: #c85e17;
+  }
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .visualstrap-superhero .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+.visualstrap-superhero .navbar-inverse .navbar-link {
+  color: #ebebeb;
+}
+.visualstrap-superhero .navbar-inverse .navbar-link:hover {
+  color: #ebebeb;
+}
+.visualstrap-superhero .breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 21px;
+  list-style: none;
+  background-color: #4e5d6c;
+  border-radius: 0;
+}
+.visualstrap-superhero .breadcrumb > li {
+  display: inline-block;
+}
+.visualstrap-superhero .breadcrumb > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #ebebeb;
+}
+.visualstrap-superhero .breadcrumb > .active {
+  color: #ebebeb;
+}
+.visualstrap-superhero .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 21px 0;
+  border-radius: 0;
+}
+.visualstrap-superhero .pagination > li {
+  display: inline;
+}
+.visualstrap-superhero .pagination > li > a,
+.visualstrap-superhero .pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 8px 16px;
+  line-height: 1.428571429;
+  text-decoration: none;
+  color: #ebebeb;
+  background-color: #4e5d6c;
+  border: 1px solid transparent;
+  margin-left: -1px;
+}
+.visualstrap-superhero .pagination > li:first-child > a,
+.visualstrap-superhero .pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .pagination > li:last-child > a,
+.visualstrap-superhero .pagination > li:last-child > span {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.visualstrap-superhero .pagination > li > a:hover,
+.visualstrap-superhero .pagination > li > span:hover,
+.visualstrap-superhero .pagination > li > a:focus,
+.visualstrap-superhero .pagination > li > span:focus {
+  color: #ebebeb;
+  background-color: #485563;
+  border-color: transparent;
+}
+.visualstrap-superhero .pagination > .active > a,
+.visualstrap-superhero .pagination > .active > span,
+.visualstrap-superhero .pagination > .active > a:hover,
+.visualstrap-superhero .pagination > .active > span:hover,
+.visualstrap-superhero .pagination > .active > a:focus,
+.visualstrap-superhero .pagination > .active > span:focus {
+  z-index: 2;
+  color: #ebebeb;
+  background-color: #df691a;
+  border-color: transparent;
+  cursor: default;
+}
+.visualstrap-superhero .pagination > .disabled > span,
+.visualstrap-superhero .pagination > .disabled > span:hover,
+.visualstrap-superhero .pagination > .disabled > span:focus,
+.visualstrap-superhero .pagination > .disabled > a,
+.visualstrap-superhero .pagination > .disabled > a:hover,
+.visualstrap-superhero .pagination > .disabled > a:focus {
+  color: #323c46;
+  background-color: #4e5d6c;
+  border-color: transparent;
+  cursor: not-allowed;
+}
+.visualstrap-superhero .pagination-lg > li > a,
+.visualstrap-superhero .pagination-lg > li > span {
+  padding: 12px 24px;
+  font-size: 19px;
+}
+.visualstrap-superhero .pagination-lg > li:first-child > a,
+.visualstrap-superhero .pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .pagination-lg > li:last-child > a,
+.visualstrap-superhero .pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.visualstrap-superhero .pagination-sm > li > a,
+.visualstrap-superhero .pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 13px;
+}
+.visualstrap-superhero .pagination-sm > li:first-child > a,
+.visualstrap-superhero .pagination-sm > li:first-child > span {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .pagination-sm > li:last-child > a,
+.visualstrap-superhero .pagination-sm > li:last-child > span {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.visualstrap-superhero .pager {
+  padding-left: 0;
+  margin: 21px 0;
+  list-style: none;
+  text-align: center;
+}
+.visualstrap-superhero .pager li {
+  display: inline;
+}
+.visualstrap-superhero .pager li > a,
+.visualstrap-superhero .pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #4e5d6c;
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+.visualstrap-superhero .pager li > a:hover,
+.visualstrap-superhero .pager li > a:focus {
+  text-decoration: none;
+  background-color: #485563;
+}
+.visualstrap-superhero .pager .next > a,
+.visualstrap-superhero .pager .next > span {
+  float: right;
+}
+.visualstrap-superhero .pager .previous > a,
+.visualstrap-superhero .pager .previous > span {
+  float: left;
+}
+.visualstrap-superhero .pager .disabled > a,
+.visualstrap-superhero .pager .disabled > a:hover,
+.visualstrap-superhero .pager .disabled > a:focus,
+.visualstrap-superhero .pager .disabled > span {
+  color: #323c46;
+  background-color: #4e5d6c;
+  cursor: not-allowed;
+}
+.visualstrap-superhero .label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+.visualstrap-superhero .label[href]:hover,
+.visualstrap-superhero .label[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.visualstrap-superhero .label:empty {
+  display: none;
+}
+.btn .visualstrap-superhero .label {
+  position: relative;
+  top: -1px;
+}
+.visualstrap-superhero .label-default {
+  background-color: #4e5d6c;
+}
+.visualstrap-superhero .label-default[href]:hover,
+.visualstrap-superhero .label-default[href]:focus {
+  background-color: #39444e;
+}
+.visualstrap-superhero .label-primary {
+  background-color: #df691a;
+}
+.visualstrap-superhero .label-primary[href]:hover,
+.visualstrap-superhero .label-primary[href]:focus {
+  background-color: #b15315;
+}
+.visualstrap-superhero .label-success {
+  background-color: #5cb85c;
+}
+.visualstrap-superhero .label-success[href]:hover,
+.visualstrap-superhero .label-success[href]:focus {
+  background-color: #449d44;
+}
+.visualstrap-superhero .label-info {
+  background-color: #5bc0de;
+}
+.visualstrap-superhero .label-info[href]:hover,
+.visualstrap-superhero .label-info[href]:focus {
+  background-color: #31b0d5;
+}
+.visualstrap-superhero .label-warning {
+  background-color: #f0ad4e;
+}
+.visualstrap-superhero .label-warning[href]:hover,
+.visualstrap-superhero .label-warning[href]:focus {
+  background-color: #ec971f;
+}
+.visualstrap-superhero .label-danger {
+  background-color: #d9534f;
+}
+.visualstrap-superhero .label-danger[href]:hover,
+.visualstrap-superhero .label-danger[href]:focus {
+  background-color: #c9302c;
+}
+.visualstrap-superhero .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #ebebeb;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #4e5d6c;
+  border-radius: 10px;
+}
+.visualstrap-superhero .badge:empty {
+  display: none;
+}
+.btn .visualstrap-superhero .badge {
+  position: relative;
+  top: -1px;
+}
+.btn-xs .visualstrap-superhero .badge {
+  top: 0;
+  padding: 1px 5px;
+}
+.visualstrap-superhero a.badge:hover,
+.visualstrap-superhero a.badge:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.visualstrap-superhero a.list-group-item.active > .badge,
+.visualstrap-superhero .nav-pills > .active > a > .badge {
+  color: #df691a;
+  background-color: #ffffff;
+}
+.visualstrap-superhero .nav-pills > li > a > .badge {
+  margin-left: 3px;
+}
+.visualstrap-superhero .jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #4e5d6c;
+}
+.visualstrap-superhero .jumbotron h1,
+.visualstrap-superhero .jumbotron .h1 {
+  color: inherit;
+}
+.visualstrap-superhero .jumbotron p {
+  margin-bottom: 15px;
+  font-size: 23px;
+  font-weight: 200;
+}
+.container .visualstrap-superhero .jumbotron {
+  border-radius: 0;
+}
+.visualstrap-superhero .jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .visualstrap-superhero .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .visualstrap-superhero .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .visualstrap-superhero .jumbotron h1,
+  .visualstrap-superhero .jumbotron .h1 {
+    font-size: 67.5px;
+  }
+}
+.visualstrap-superhero .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 21px;
+  line-height: 1.428571429;
+  background-color: #2b3e50;
+  border: 1px solid #dddddd;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.visualstrap-superhero .thumbnail > img,
+.visualstrap-superhero .thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+a.visualstrap-superhero .thumbnail:hover,
+a.visualstrap-superhero .thumbnail:focus,
+a.visualstrap-superhero .thumbnail.active {
+  border-color: #df691a;
+}
+.visualstrap-superhero .thumbnail .caption {
+  padding: 9px;
+  color: #ebebeb;
+}
+.visualstrap-superhero .alert {
+  padding: 15px;
+  margin-bottom: 21px;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.visualstrap-superhero .alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.visualstrap-superhero .alert .alert-link {
+  font-weight: bold;
+}
+.visualstrap-superhero .alert > p,
+.visualstrap-superhero .alert > ul {
+  margin-bottom: 0;
+}
+.visualstrap-superhero .alert > p + p {
+  margin-top: 5px;
+}
+.visualstrap-superhero .alert-dismissable {
+  padding-right: 35px;
+}
+.visualstrap-superhero .alert-dismissable .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.visualstrap-superhero .alert-success {
+  background-color: #5cb85c;
+  border-color: transparent;
+  color: #ebebeb;
+}
+.visualstrap-superhero .alert-success hr {
+  border-top-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .alert-success .alert-link {
+  color: #d2d2d2;
+}
+.visualstrap-superhero .alert-info {
+  background-color: #5bc0de;
+  border-color: transparent;
+  color: #ebebeb;
+}
+.visualstrap-superhero .alert-info hr {
+  border-top-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .alert-info .alert-link {
+  color: #d2d2d2;
+}
+.visualstrap-superhero .alert-warning {
+  background-color: #f0ad4e;
+  border-color: transparent;
+  color: #ebebeb;
+}
+.visualstrap-superhero .alert-warning hr {
+  border-top-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .alert-warning .alert-link {
+  color: #d2d2d2;
+}
+.visualstrap-superhero .alert-danger {
+  background-color: #d9534f;
+  border-color: transparent;
+  color: #ebebeb;
+}
+.visualstrap-superhero .alert-danger hr {
+  border-top-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .alert-danger .alert-link {
+  color: #d2d2d2;
+}
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.visualstrap-superhero .progress {
+  overflow: hidden;
+  height: 21px;
+  margin-bottom: 21px;
+  background-color: #4e5d6c;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.visualstrap-superhero .progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #df691a;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+.visualstrap-superhero .progress-striped .progress-bar {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+.visualstrap-superhero .progress.active .progress-bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+.visualstrap-superhero .progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped .visualstrap-superhero .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.visualstrap-superhero .progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped .visualstrap-superhero .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.visualstrap-superhero .progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped .visualstrap-superhero .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.visualstrap-superhero .progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped .visualstrap-superhero .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.visualstrap-superhero .media,
+.visualstrap-superhero .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+.visualstrap-superhero .media,
+.visualstrap-superhero .media .media {
+  margin-top: 15px;
+}
+.visualstrap-superhero .media:first-child {
+  margin-top: 0;
+}
+.visualstrap-superhero .media-object {
+  display: block;
+}
+.visualstrap-superhero .media-heading {
+  margin: 0 0 5px;
+}
+.visualstrap-superhero .media > .pull-left {
+  margin-right: 10px;
+}
+.visualstrap-superhero .media > .pull-right {
+  margin-left: 10px;
+}
+.visualstrap-superhero .media-list {
+  padding-left: 0;
+  list-style: none;
+}
+.visualstrap-superhero .list-group {
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+.visualstrap-superhero .list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #4e5d6c;
+  border: 1px solid transparent;
+}
+.visualstrap-superhero .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.visualstrap-superhero .list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.visualstrap-superhero .list-group-item > .badge {
+  float: right;
+}
+.visualstrap-superhero .list-group-item > .badge + .badge {
+  margin-right: 5px;
+}
+.visualstrap-superhero a.list-group-item {
+  color: #ebebeb;
+}
+.visualstrap-superhero a.list-group-item .list-group-item-heading {
+  color: #ebebeb;
+}
+.visualstrap-superhero a.list-group-item:hover,
+.visualstrap-superhero a.list-group-item:focus {
+  text-decoration: none;
+  background-color: #485563;
+}
+.visualstrap-superhero a.list-group-item.active,
+.visualstrap-superhero a.list-group-item.active:hover,
+.visualstrap-superhero a.list-group-item.active:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #df691a;
+  border-color: #df691a;
+}
+.visualstrap-superhero a.list-group-item.active .list-group-item-heading,
+.visualstrap-superhero a.list-group-item.active:hover .list-group-item-heading,
+.visualstrap-superhero a.list-group-item.active:focus .list-group-item-heading {
+  color: inherit;
+}
+.visualstrap-superhero a.list-group-item.active .list-group-item-text,
+.visualstrap-superhero a.list-group-item.active:hover .list-group-item-text,
+.visualstrap-superhero a.list-group-item.active:focus .list-group-item-text {
+  color: #f9decc;
+}
+.visualstrap-superhero .list-group-item-success {
+  color: #ebebeb;
+  background-color: #5cb85c;
+}
+a.visualstrap-superhero .list-group-item-success {
+  color: #ebebeb;
+}
+a.visualstrap-superhero .list-group-item-success .list-group-item-heading {
+  color: inherit;
+}
+a.visualstrap-superhero .list-group-item-success:hover,
+a.visualstrap-superhero .list-group-item-success:focus {
+  color: #ebebeb;
+  background-color: #4cae4c;
+}
+a.visualstrap-superhero .list-group-item-success.active,
+a.visualstrap-superhero .list-group-item-success.active:hover,
+a.visualstrap-superhero .list-group-item-success.active:focus {
+  color: #fff;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+.visualstrap-superhero .list-group-item-info {
+  color: #ebebeb;
+  background-color: #5bc0de;
+}
+a.visualstrap-superhero .list-group-item-info {
+  color: #ebebeb;
+}
+a.visualstrap-superhero .list-group-item-info .list-group-item-heading {
+  color: inherit;
+}
+a.visualstrap-superhero .list-group-item-info:hover,
+a.visualstrap-superhero .list-group-item-info:focus {
+  color: #ebebeb;
+  background-color: #46b8da;
+}
+a.visualstrap-superhero .list-group-item-info.active,
+a.visualstrap-superhero .list-group-item-info.active:hover,
+a.visualstrap-superhero .list-group-item-info.active:focus {
+  color: #fff;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+.visualstrap-superhero .list-group-item-warning {
+  color: #ebebeb;
+  background-color: #f0ad4e;
+}
+a.visualstrap-superhero .list-group-item-warning {
+  color: #ebebeb;
+}
+a.visualstrap-superhero .list-group-item-warning .list-group-item-heading {
+  color: inherit;
+}
+a.visualstrap-superhero .list-group-item-warning:hover,
+a.visualstrap-superhero .list-group-item-warning:focus {
+  color: #ebebeb;
+  background-color: #eea236;
+}
+a.visualstrap-superhero .list-group-item-warning.active,
+a.visualstrap-superhero .list-group-item-warning.active:hover,
+a.visualstrap-superhero .list-group-item-warning.active:focus {
+  color: #fff;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+.visualstrap-superhero .list-group-item-danger {
+  color: #ebebeb;
+  background-color: #d9534f;
+}
+a.visualstrap-superhero .list-group-item-danger {
+  color: #ebebeb;
+}
+a.visualstrap-superhero .list-group-item-danger .list-group-item-heading {
+  color: inherit;
+}
+a.visualstrap-superhero .list-group-item-danger:hover,
+a.visualstrap-superhero .list-group-item-danger:focus {
+  color: #ebebeb;
+  background-color: #d43f3a;
+}
+a.visualstrap-superhero .list-group-item-danger.active,
+a.visualstrap-superhero .list-group-item-danger.active:hover,
+a.visualstrap-superhero .list-group-item-danger.active:focus {
+  color: #fff;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+.visualstrap-superhero .list-group-item-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.visualstrap-superhero .list-group-item-text {
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+.visualstrap-superhero .panel {
+  margin-bottom: 21px;
+  background-color: #4e5d6c;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.visualstrap-superhero .panel-body {
+  padding: 15px;
+}
+.visualstrap-superhero .panel > .list-group {
+  margin-bottom: 0;
+}
+.visualstrap-superhero .panel > .list-group .list-group-item {
+  border-width: 1px 0;
+  border-radius: 0;
+}
+.visualstrap-superhero .panel > .list-group .list-group-item:first-child {
+  border-top: 0;
+}
+.visualstrap-superhero .panel > .list-group .list-group-item:last-child {
+  border-bottom: 0;
+}
+.visualstrap-superhero .panel > .list-group:first-child .list-group-item:first-child {
+  border-top-right-radius: -1;
+  border-top-left-radius: -1;
+}
+.visualstrap-superhero .panel > .list-group:last-child .list-group-item:last-child {
+  border-bottom-right-radius: -1;
+  border-bottom-left-radius: -1;
+}
+.visualstrap-superhero .panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+.visualstrap-superhero .panel > .table,
+.visualstrap-superhero .panel > .table-responsive > .table {
+  margin-bottom: 0;
+}
+.visualstrap-superhero .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.visualstrap-superhero .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.visualstrap-superhero .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.visualstrap-superhero .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.visualstrap-superhero .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.visualstrap-superhero .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.visualstrap-superhero .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.visualstrap-superhero .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+  border-top-left-radius: -1;
+}
+.visualstrap-superhero .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.visualstrap-superhero .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.visualstrap-superhero .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.visualstrap-superhero .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.visualstrap-superhero .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.visualstrap-superhero .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.visualstrap-superhero .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.visualstrap-superhero .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+  border-top-right-radius: -1;
+}
+.visualstrap-superhero .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.visualstrap-superhero .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.visualstrap-superhero .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.visualstrap-superhero .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.visualstrap-superhero .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.visualstrap-superhero .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.visualstrap-superhero .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.visualstrap-superhero .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+  border-bottom-left-radius: -1;
+}
+.visualstrap-superhero .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.visualstrap-superhero .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.visualstrap-superhero .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.visualstrap-superhero .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.visualstrap-superhero .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.visualstrap-superhero .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.visualstrap-superhero .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.visualstrap-superhero .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+  border-bottom-right-radius: -1;
+}
+.visualstrap-superhero .panel > .panel-body + .table,
+.visualstrap-superhero .panel > .panel-body + .table-responsive {
+  border-top: 1px solid #4e5d6c;
+}
+.visualstrap-superhero .panel > .table > tbody:first-child > tr:first-child th,
+.visualstrap-superhero .panel > .table > tbody:first-child > tr:first-child td {
+  border-top: 0;
+}
+.visualstrap-superhero .panel > .table-bordered,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+.visualstrap-superhero .panel > .table-bordered > thead > tr > th:first-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.visualstrap-superhero .panel > .table-bordered > tbody > tr > th:first-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.visualstrap-superhero .panel > .table-bordered > tfoot > tr > th:first-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.visualstrap-superhero .panel > .table-bordered > thead > tr > td:first-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.visualstrap-superhero .panel > .table-bordered > tbody > tr > td:first-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.visualstrap-superhero .panel > .table-bordered > tfoot > tr > td:first-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+.visualstrap-superhero .panel > .table-bordered > thead > tr > th:last-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.visualstrap-superhero .panel > .table-bordered > tbody > tr > th:last-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.visualstrap-superhero .panel > .table-bordered > tfoot > tr > th:last-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.visualstrap-superhero .panel > .table-bordered > thead > tr > td:last-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.visualstrap-superhero .panel > .table-bordered > tbody > tr > td:last-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.visualstrap-superhero .panel > .table-bordered > tfoot > tr > td:last-child,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+.visualstrap-superhero .panel > .table-bordered > thead > tr:first-child > th,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+.visualstrap-superhero .panel > .table-bordered > tbody > tr:first-child > th,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th,
+.visualstrap-superhero .panel > .table-bordered > tfoot > tr:first-child > th,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tfoot > tr:first-child > th,
+.visualstrap-superhero .panel > .table-bordered > thead > tr:first-child > td,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+.visualstrap-superhero .panel > .table-bordered > tbody > tr:first-child > td,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+.visualstrap-superhero .panel > .table-bordered > tfoot > tr:first-child > td,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tfoot > tr:first-child > td {
+  border-top: 0;
+}
+.visualstrap-superhero .panel > .table-bordered > thead > tr:last-child > th,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > thead > tr:last-child > th,
+.visualstrap-superhero .panel > .table-bordered > tbody > tr:last-child > th,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.visualstrap-superhero .panel > .table-bordered > tfoot > tr:last-child > th,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+.visualstrap-superhero .panel > .table-bordered > thead > tr:last-child > td,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > thead > tr:last-child > td,
+.visualstrap-superhero .panel > .table-bordered > tbody > tr:last-child > td,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.visualstrap-superhero .panel > .table-bordered > tfoot > tr:last-child > td,
+.visualstrap-superhero .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+  border-bottom: 0;
+}
+.visualstrap-superhero .panel > .table-responsive {
+  border: 0;
+  margin-bottom: 0;
+}
+.visualstrap-superhero .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: -1;
+  border-top-left-radius: -1;
+}
+.visualstrap-superhero .panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.visualstrap-superhero .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 17px;
+  color: inherit;
+}
+.visualstrap-superhero .panel-title > a {
+  color: inherit;
+}
+.visualstrap-superhero .panel-footer {
+  padding: 10px 15px;
+  background-color: #485563;
+  border-top: 1px solid transparent;
+  border-bottom-right-radius: -1;
+  border-bottom-left-radius: -1;
+}
+.visualstrap-superhero .panel-group {
+  margin-bottom: 21px;
+}
+.visualstrap-superhero .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0;
+  overflow: hidden;
+}
+.visualstrap-superhero .panel-group .panel + .panel {
+  margin-top: 5px;
+}
+.visualstrap-superhero .panel-group .panel-heading {
+  border-bottom: 0;
+}
+.visualstrap-superhero .panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: 1px solid transparent;
+}
+.visualstrap-superhero .panel-group .panel-footer {
+  border-top: 0;
+}
+.visualstrap-superhero .panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid transparent;
+}
+.visualstrap-superhero .panel-default {
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-default > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: transparent;
+}
+.visualstrap-superhero .panel-default > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: transparent;
+}
+.visualstrap-superhero .panel-primary {
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #df691a;
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: transparent;
+}
+.visualstrap-superhero .panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: transparent;
+}
+.visualstrap-superhero .panel-success {
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-success > .panel-heading {
+  color: #ebebeb;
+  background-color: #5cb85c;
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-success > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: transparent;
+}
+.visualstrap-superhero .panel-success > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: transparent;
+}
+.visualstrap-superhero .panel-info {
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-info > .panel-heading {
+  color: #ebebeb;
+  background-color: #5bc0de;
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-info > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: transparent;
+}
+.visualstrap-superhero .panel-info > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: transparent;
+}
+.visualstrap-superhero .panel-warning {
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-warning > .panel-heading {
+  color: #ebebeb;
+  background-color: #f0ad4e;
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-warning > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: transparent;
+}
+.visualstrap-superhero .panel-warning > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: transparent;
+}
+.visualstrap-superhero .panel-danger {
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-danger > .panel-heading {
+  color: #ebebeb;
+  background-color: #d9534f;
+  border-color: transparent;
+}
+.visualstrap-superhero .panel-danger > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: transparent;
+}
+.visualstrap-superhero .panel-danger > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: transparent;
+}
+.visualstrap-superhero .well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #4e5d6c;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.visualstrap-superhero .well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.visualstrap-superhero .well-lg {
+  padding: 24px;
+  border-radius: 0;
+}
+.visualstrap-superhero .well-sm {
+  padding: 9px;
+  border-radius: 0;
+}
+.visualstrap-superhero .close {
+  float: right;
+  font-size: 22.5px;
+  font-weight: bold;
+  line-height: 1;
+  color: #ebebeb;
+  text-shadow: none;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+.visualstrap-superhero .close:hover,
+.visualstrap-superhero .close:focus {
+  color: #ebebeb;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+button.visualstrap-superhero .close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.modal-open {
+  overflow: hidden;
+}
+.modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+.modal-content {
+  position: relative;
+  background-color: #4e5d6c;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000000;
+}
+.modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #2b3e50;
+  min-height: 16.428571429px;
+}
+.modal-header .close {
+  margin-top: -2px;
+}
+.modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+}
+.modal-body {
+  position: relative;
+  padding: 20px;
+}
+.modal-footer {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 1px solid #2b3e50;
+}
+.modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  .modal-sm {
+    width: 300px;
+  }
+  .modal-lg {
+    width: 900px;
+  }
+}
+.visualstrap-superhero .tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  visibility: visible;
+  font-size: 13px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.visualstrap-superhero .tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.visualstrap-superhero .tooltip.top {
+  margin-top: -3px;
+  padding: 5px 0;
+}
+.visualstrap-superhero .tooltip.right {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+.visualstrap-superhero .tooltip.bottom {
+  margin-top: 3px;
+  padding: 5px 0;
+}
+.visualstrap-superhero .tooltip.left {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+.visualstrap-superhero .tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 0;
+}
+.visualstrap-superhero .tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.visualstrap-superhero .tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+.visualstrap-superhero .tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+.visualstrap-superhero .tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  right: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+.visualstrap-superhero .tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000000;
+}
+.visualstrap-superhero .tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000;
+}
+.visualstrap-superhero .tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+.visualstrap-superhero .tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+.visualstrap-superhero .tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+.visualstrap-superhero .popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  background-color: #4e5d6c;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+.visualstrap-superhero .popover.top {
+  margin-top: -10px;
+}
+.visualstrap-superhero .popover.right {
+  margin-left: 10px;
+}
+.visualstrap-superhero .popover.bottom {
+  margin-top: 10px;
+}
+.visualstrap-superhero .popover.left {
+  margin-left: -10px;
+}
+.visualstrap-superhero .popover-title {
+  margin: 0;
+  padding: 8px 14px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #485563;
+  border-bottom: 1px solid #3d4954;
+  border-radius: 5px 5px 0 0;
+}
+.visualstrap-superhero .popover-content {
+  padding: 9px 14px;
+}
+.visualstrap-superhero .popover .arrow,
+.visualstrap-superhero .popover .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.visualstrap-superhero .popover .arrow {
+  border-width: 11px;
+}
+.visualstrap-superhero .popover .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+.visualstrap-superhero .popover.top .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: transparent;
+  bottom: -11px;
+}
+.visualstrap-superhero .popover.top .arrow:after {
+  content: " ";
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #4e5d6c;
+}
+.visualstrap-superhero .popover.right .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: transparent;
+}
+.visualstrap-superhero .popover.right .arrow:after {
+  content: " ";
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: #4e5d6c;
+}
+.visualstrap-superhero .popover.bottom .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: transparent;
+  top: -11px;
+}
+.visualstrap-superhero .popover.bottom .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #4e5d6c;
+}
+.visualstrap-superhero .popover.left .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: transparent;
+}
+.visualstrap-superhero .popover.left .arrow:after {
+  content: " ";
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: #4e5d6c;
+  bottom: -10px;
+}
+.visualstrap-superhero .carousel {
+  position: relative;
+}
+.visualstrap-superhero .carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.visualstrap-superhero .carousel-inner > .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+.visualstrap-superhero .carousel-inner > .item > img,
+.visualstrap-superhero .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+.visualstrap-superhero .carousel-inner > .active,
+.visualstrap-superhero .carousel-inner > .next,
+.visualstrap-superhero .carousel-inner > .prev {
+  display: block;
+}
+.visualstrap-superhero .carousel-inner > .active {
+  left: 0;
+}
+.visualstrap-superhero .carousel-inner > .next,
+.visualstrap-superhero .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.visualstrap-superhero .carousel-inner > .next {
+  left: 100%;
+}
+.visualstrap-superhero .carousel-inner > .prev {
+  left: -100%;
+}
+.visualstrap-superhero .carousel-inner > .next.left,
+.visualstrap-superhero .carousel-inner > .prev.right {
+  left: 0;
+}
+.visualstrap-superhero .carousel-inner > .active.left {
+  left: -100%;
+}
+.visualstrap-superhero .carousel-inner > .active.right {
+  left: 100%;
+}
+.visualstrap-superhero .carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.visualstrap-superhero .carousel-control.left {
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+.visualstrap-superhero .carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+.visualstrap-superhero .carousel-control:hover,
+.visualstrap-superhero .carousel-control:focus {
+  outline: none;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.visualstrap-superhero .carousel-control .icon-prev,
+.visualstrap-superhero .carousel-control .icon-next,
+.visualstrap-superhero .carousel-control .glyphicon-chevron-left,
+.visualstrap-superhero .carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.visualstrap-superhero .carousel-control .icon-prev,
+.visualstrap-superhero .carousel-control .glyphicon-chevron-left {
+  left: 50%;
+}
+.visualstrap-superhero .carousel-control .icon-next,
+.visualstrap-superhero .carousel-control .glyphicon-chevron-right {
+  right: 50%;
+}
+.visualstrap-superhero .carousel-control .icon-prev,
+.visualstrap-superhero .carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+.visualstrap-superhero .carousel-control .icon-prev:before {
+  content: '\2039';
+}
+.visualstrap-superhero .carousel-control .icon-next:before {
+  content: '\203a';
+}
+.visualstrap-superhero .carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.visualstrap-superhero .carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+}
+.visualstrap-superhero .carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+}
+.visualstrap-superhero .carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.visualstrap-superhero .carousel-caption .btn {
+  text-shadow: none;
+}
+@media screen and (min-width: 768px) {
+  .visualstrap-superhero .carousel-control .glyphicons-chevron-left,
+  .visualstrap-superhero .carousel-control .glyphicons-chevron-right,
+  .visualstrap-superhero .carousel-control .icon-prev,
+  .visualstrap-superhero .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+  .visualstrap-superhero .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+  .visualstrap-superhero .carousel-indicators {
+    bottom: 20px;
+  }
+}
+.visualstrap-superhero .clearfix:before,
+.visualstrap-superhero .clearfix:after,
+.visualstrap-superhero .container:before,
+.visualstrap-superhero .container:after,
+.visualstrap-superhero .container-fluid:before,
+.visualstrap-superhero .container-fluid:after,
+.visualstrap-superhero .row:before,
+.visualstrap-superhero .row:after,
+.visualstrap-superhero .form-horizontal .form-group:before,
+.visualstrap-superhero .form-horizontal .form-group:after,
+.visualstrap-superhero .btn-toolbar:before,
+.visualstrap-superhero .btn-toolbar:after,
+.visualstrap-superhero .btn-group-vertical > .btn-group:before,
+.visualstrap-superhero .btn-group-vertical > .btn-group:after,
+.visualstrap-superhero .nav:before,
+.visualstrap-superhero .nav:after,
+.visualstrap-superhero .navbar:before,
+.visualstrap-superhero .navbar:after,
+.visualstrap-superhero .navbar-header:before,
+.visualstrap-superhero .navbar-header:after,
+.visualstrap-superhero .navbar-collapse:before,
+.visualstrap-superhero .navbar-collapse:after,
+.visualstrap-superhero .pager:before,
+.visualstrap-superhero .pager:after,
+.visualstrap-superhero .panel-body:before,
+.visualstrap-superhero .panel-body:after,
+.modal-footer:before,
+.modal-footer:after {
+  content: " ";
+  display: table;
+}
+.visualstrap-superhero .clearfix:after,
+.visualstrap-superhero .container:after,
+.visualstrap-superhero .container-fluid:after,
+.visualstrap-superhero .row:after,
+.visualstrap-superhero .form-horizontal .form-group:after,
+.visualstrap-superhero .btn-toolbar:after,
+.visualstrap-superhero .btn-group-vertical > .btn-group:after,
+.visualstrap-superhero .nav:after,
+.visualstrap-superhero .navbar:after,
+.visualstrap-superhero .navbar-header:after,
+.visualstrap-superhero .navbar-collapse:after,
+.visualstrap-superhero .pager:after,
+.visualstrap-superhero .panel-body:after,
+.modal-footer:after {
+  clear: both;
+}
+.visualstrap-superhero .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.visualstrap-superhero .pull-right {
+  float: right !important;
+}
+.visualstrap-superhero .pull-left {
+  float: left !important;
+}
+.visualstrap-superhero .hide {
+  display: none !important;
+}
+.visualstrap-superhero .show {
+  display: block !important;
+}
+.visualstrap-superhero .invisible {
+  visibility: hidden;
+}
+.visualstrap-superhero .text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.visualstrap-superhero .hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.visualstrap-superhero .affix {
+  position: fixed;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.visualstrap-superhero .visible-xs,
+tr.visualstrap-superhero .visible-xs,
+th.visualstrap-superhero .visible-xs,
+td.visualstrap-superhero .visible-xs {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .visualstrap-superhero .visible-xs {
+    display: block !important;
+  }
+  table.visualstrap-superhero .visible-xs {
+    display: table;
+  }
+  tr.visualstrap-superhero .visible-xs {
+    display: table-row !important;
+  }
+  th.visualstrap-superhero .visible-xs,
+  td.visualstrap-superhero .visible-xs {
+    display: table-cell !important;
+  }
+}
+.visualstrap-superhero .visible-sm,
+tr.visualstrap-superhero .visible-sm,
+th.visualstrap-superhero .visible-sm,
+td.visualstrap-superhero .visible-sm {
+  display: none !important;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visualstrap-superhero .visible-sm {
+    display: block !important;
+  }
+  table.visualstrap-superhero .visible-sm {
+    display: table;
+  }
+  tr.visualstrap-superhero .visible-sm {
+    display: table-row !important;
+  }
+  th.visualstrap-superhero .visible-sm,
+  td.visualstrap-superhero .visible-sm {
+    display: table-cell !important;
+  }
+}
+.visualstrap-superhero .visible-md,
+tr.visualstrap-superhero .visible-md,
+th.visualstrap-superhero .visible-md,
+td.visualstrap-superhero .visible-md {
+  display: none !important;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visualstrap-superhero .visible-md {
+    display: block !important;
+  }
+  table.visualstrap-superhero .visible-md {
+    display: table;
+  }
+  tr.visualstrap-superhero .visible-md {
+    display: table-row !important;
+  }
+  th.visualstrap-superhero .visible-md,
+  td.visualstrap-superhero .visible-md {
+    display: table-cell !important;
+  }
+}
+.visualstrap-superhero .visible-lg,
+tr.visualstrap-superhero .visible-lg,
+th.visualstrap-superhero .visible-lg,
+td.visualstrap-superhero .visible-lg {
+  display: none !important;
+}
+@media (min-width: 1200px) {
+  .visualstrap-superhero .visible-lg {
+    display: block !important;
+  }
+  table.visualstrap-superhero .visible-lg {
+    display: table;
+  }
+  tr.visualstrap-superhero .visible-lg {
+    display: table-row !important;
+  }
+  th.visualstrap-superhero .visible-lg,
+  td.visualstrap-superhero .visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .visualstrap-superhero .hidden-xs,
+  tr.visualstrap-superhero .hidden-xs,
+  th.visualstrap-superhero .hidden-xs,
+  td.visualstrap-superhero .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visualstrap-superhero .hidden-sm,
+  tr.visualstrap-superhero .hidden-sm,
+  th.visualstrap-superhero .hidden-sm,
+  td.visualstrap-superhero .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visualstrap-superhero .hidden-md,
+  tr.visualstrap-superhero .hidden-md,
+  th.visualstrap-superhero .hidden-md,
+  td.visualstrap-superhero .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visualstrap-superhero .hidden-lg,
+  tr.visualstrap-superhero .hidden-lg,
+  th.visualstrap-superhero .hidden-lg,
+  td.visualstrap-superhero .hidden-lg {
+    display: none !important;
+  }
+}
+.visualstrap-superhero .visible-print,
+tr.visualstrap-superhero .visible-print,
+th.visualstrap-superhero .visible-print,
+td.visualstrap-superhero .visible-print {
+  display: none !important;
+}
+@media print {
+  .visualstrap-superhero .visible-print {
+    display: block !important;
+  }
+  table.visualstrap-superhero .visible-print {
+    display: table;
+  }
+  tr.visualstrap-superhero .visible-print {
+    display: table-row !important;
+  }
+  th.visualstrap-superhero .visible-print,
+  td.visualstrap-superhero .visible-print {
+    display: table-cell !important;
+  }
+}
+@media print {
+  .visualstrap-superhero .hidden-print,
+  tr.visualstrap-superhero .hidden-print,
+  th.visualstrap-superhero .hidden-print,
+  td.visualstrap-superhero .hidden-print {
+    display: none !important;
+  }
+}
