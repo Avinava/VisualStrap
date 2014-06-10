@@ -3,6 +3,7 @@
     <apex:attribute name="icon" type="String" description="Name of the icon that you want to use" access="global" required="true"/>
     <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
     <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
+    <apex:attribute name="id" type="String" description="html id to be used with the component" access="global" required="false"/>
 
-    <span class="glyphicon glyphicon-{!LOWER(icon)} {!styleclass}" style="{!style}"></span>
+    <span id="{!id}" class="glyphicon glyphicon-{!LOWER(icon)} {!styleclass}" style="{!style}"></span>
 </apex:component>
