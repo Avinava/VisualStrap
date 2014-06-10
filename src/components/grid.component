@@ -1,0 +1,6 @@
+<apex:component access="global">
+    <ul class="grid">
+        <apex:componentBody />
+    </ul>
+    <div  style="clear:both"/>
+</apex:component>

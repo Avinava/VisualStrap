@@ -6,7 +6,7 @@
     <apex:attribute name="logo" description="The logo to be display on the navbar" type="string" access="global"/>
     <apex:attribute name="brand" description="The main header text to be displayed on the navbar" type="string" access="global"/>
     <apex:attribute name="layout" description="Set the layout of the navbar, you can set it to 'default' or 'none'.When layout is set to none the navbar doesn't style itself and ignores homepagelink,brand and logo attributes, in this layout you can create your own styling" default="default" type="string" access="global"/>
-    
+    <apex:attribute name="logostyle" description="A inline style that to be applied to the the logo image" type="string" />
     
     <nav class="navbar navbar-{!type} {!IF(inverse,'navbar-inverse','navbar-default')}">
       
@@ -14,7 +14,7 @@
         <apex:outputPanel styleClass="navbar-header" layout="block" rendered="{!layout != 'none'}">
             <apex:outputPanel layout="block">
                 <apex:outputLink style="display:block" styleClass="navbar-brand" value="{!homepagelink}" rendered="{!NOT(ISNULL(logo))}">
-                    <apex:image value="{!logo}" style="max-height:45px"/>
+                    <apex:image value="{!logo}" style="{!IF(ISNULL(logostyle),'max-height:45px',logostyle)}"/>
                 </apex:outputLink>
                 <apex:outputLink styleClass="navbar-brand" style="display:block" value="{!homepagelink}" rendered="{!NOT(ISNULL(brand)) && ISNULL(logo)}">
                     {!brand}
