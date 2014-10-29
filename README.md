@@ -5,7 +5,8 @@ Visualforce Implementation of Boostrap
 
 New 29-Oct-2014
 -
-Adding PDF support to render pages as PDF using Visualstrap
+Adding PDF support to render pages as PDF using Visualstrap 
+(set theme as "pdf")
 
 What you get with this version of VisualStrap ? 
 -
