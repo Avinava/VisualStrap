@@ -3,7 +3,7 @@ VisualStrap
 
 Visualforce Implementation of Boostrap
 
-New 9-Oct-2014
+New 29-Oct-2014
 -
 Adding PDF support to render pages as PDF using Visualstrap
 
