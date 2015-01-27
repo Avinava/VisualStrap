@@ -1,5 +1,9 @@
 VisualStrap
 =========
+<a href="https://githubsfdeploy.herokuapp.com?owner=avinava&repo=VisualStrap">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
+</a>
 
 Visualforce Implementation of Boostrap
 
