@@ -5,7 +5,7 @@ VisualStrap
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
 
-Visualforce Implementation of Bootsrap
+Visualforce Implementation of Bootstrap
 
 New 29-Oct-2014
 -
