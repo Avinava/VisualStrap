@@ -2,7 +2,7 @@
     <apex:attribute name="theme" type="String" description="Theme to be used, possible values 'superhero','lumen','default','flatly','pdf'" access="global" required="false"/>
     
     <apex:variable var="themeName" value="{!IF(theme == 'flatly','-flatly',IF(theme == 'superhero','-superhero',IF(theme == 'lumen','-lumen',IF(theme == 'pdf','-pdf',''))))}"/>    
-    <apex:includeScript value="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"/>
+    <apex:includeScript value="{!URLFOR($Resource.VisualStrap_Resources, 'js/jquery.min.js')}"/>
     <apex:includeScript value="{!URLFOR($Resource.VisualStrap_Resources, 'js/bootstrap.min.js')}" />
     <apex:stylesheet value="{!URLFOR($Resource.VisualStrap_Resources, 'css/visualstrap'+themeName+'.css')}" />
     <apex:stylesheet value="{!URLFOR($Resource.VisualStrap_Resources, 'css/visualstrap-common.css')}" />
