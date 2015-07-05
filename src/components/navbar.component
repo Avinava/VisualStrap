@@ -12,6 +12,12 @@
       
       <apex:outputPanel styleClass="container" layout="block">
         <apex:outputPanel styleClass="navbar-header" layout="block" rendered="{!layout != 'none'}">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <apex:outputPanel layout="block">
                 <apex:outputLink style="display:block" styleClass="navbar-brand" value="{!homepagelink}" rendered="{!NOT(ISNULL(logo))}">
                     <apex:image value="{!logo}" style="{!IF(ISNULL(logostyle),'max-height:45px',logostyle)}"/>
@@ -21,7 +27,7 @@
                 </apex:outputLink> 
             </apex:outputPanel>          
         </apex:outputPanel>
-        <div class="{!IF(layout != 'none','navbar-collapse collapse','')}">
+        <div class="{!IF(layout != 'none','navbar-collapse collapse','')}" id="navbar-collapse-1">
           <div class="{!IF(layout != 'none','nav navbar-nav navbar-right','')}">
             <div class="rightBar">
                 <apex:componentBody /> 
