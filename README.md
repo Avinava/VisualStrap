@@ -7,8 +7,16 @@ VisualStrap
 
 Visualforce Implementation of Bootstrap
 
-New 29-Oct-2014
--
+### New 2-July-2015
+> Not dead just yet
+
+- Upgrade to bootstrap 3.3.5
+- Add new material design css 'Paper'
+- Add collapse support for navbar
+- bug fixes
+
+### New 29-Oct-2014
+
 Adding PDF support to render pages as PDF using Visualstrap 
 (set theme as "pdf")
 
