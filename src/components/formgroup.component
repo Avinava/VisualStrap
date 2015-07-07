@@ -1,9 +1,9 @@
-<apex:component layout="none" access="global">
+<apex:component layout="none" access="global" controller="Visualstrap">
     <apex:attribute name="style" type="String" description="A inline style that to be applied to the component" access="global" required="false"/>
     <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
-	<apex:attribute name="id" type="String" description="html id to be used with the component" access="global" required="false"/>
-	
-    <div id="{!id}" class="form-group {!styleclass}" style="{!style}">
+    <apex:attribute name="html-id" type="String" description="html id to be used with the component" access="global" required="false" assignTo="{!htmlid}"/>
+    
+    <div id="{!htmlid}" class="form-group {!styleclass}" style="{!style}">
         <apex:componentBody />
     </div>
     
