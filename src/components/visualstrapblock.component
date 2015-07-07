@@ -4,7 +4,7 @@
     <apex:attribute name="styleclass" type="String" description="The CSS style class to be used with the component" access="global" required="false"/>
 
     
-    <apex:outputPanel styleClass="visualstrap visualstrap-flatly visualstrap-lumen visualstrap-superhero {!styleclass}" style="{!style}" layout="block">
+    <apex:outputPanel styleClass="visualstrap {!styleclass}" style="{!style}" layout="block">
         <apex:componentBody />
     </apex:outputPanel>
 </apex:component>
