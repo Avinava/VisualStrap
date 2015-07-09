@@ -4985,6 +4985,7 @@ a.visualstrap .badge:focus {
   margin-bottom: 30px;
   color: inherit;
   background-color: #f9f9f9;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 .visualstrap .jumbotron h1,
 .visualstrap .jumbotron .h1 {
@@ -5837,7 +5838,7 @@ button.visualstrap .list-group-item-danger.active:focus {
   border: 1px solid transparent;
   border-radius: 3px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 .visualstrap .well blockquote {
   border-color: #ddd;
@@ -5879,7 +5880,7 @@ button.visualstrap .close {
 .visualstrap .navbar {
   border: none;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 .visualstrap .navbar-brand {
   font-size: 24px;
