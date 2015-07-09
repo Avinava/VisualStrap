@@ -4627,23 +4627,23 @@ fieldset[disabled] .visualstrap .navbar-default .btn-link:focus {
 .visualstrap .navbar-inverse .navbar-text {
   color: #ffffff;
 }
-.visualstrap .navbar-inverse .navbar-nav > li > a {
+.visualstrap .navbar-inverse .navbar-nav  li > a {
   color: #ffffff;
 }
-.visualstrap .navbar-inverse .navbar-nav > li > a:hover,
-.visualstrap .navbar-inverse .navbar-nav > li > a:focus {
+.visualstrap .navbar-inverse .navbar-nav  li > a:hover,
+.visualstrap .navbar-inverse .navbar-nav  li > a:focus {
   color: #2c3e50;
   background-color: transparent;
 }
-.visualstrap .navbar-inverse .navbar-nav > .active > a,
-.visualstrap .navbar-inverse .navbar-nav > .active > a:hover,
-.visualstrap .navbar-inverse .navbar-nav > .active > a:focus {
+.visualstrap .navbar-inverse .navbar-nav  .active > a,
+.visualstrap .navbar-inverse .navbar-nav  .active > a:hover,
+.visualstrap .navbar-inverse .navbar-nav  .active > a:focus {
   color: #ffffff;
   background-color: #15a589;
 }
-.visualstrap .navbar-inverse .navbar-nav > .disabled > a,
-.visualstrap .navbar-inverse .navbar-nav > .disabled > a:hover,
-.visualstrap .navbar-inverse .navbar-nav > .disabled > a:focus {
+.visualstrap .navbar-inverse .navbar-nav  .disabled > a,
+.visualstrap .navbar-inverse .navbar-nav  .disabled > a:hover,
+.visualstrap .navbar-inverse .navbar-nav  .disabled > a:focus {
   color: #cccccc;
   background-color: transparent;
 }
@@ -4661,9 +4661,9 @@ fieldset[disabled] .visualstrap .navbar-default .btn-link:focus {
 .visualstrap .navbar-inverse .navbar-form {
   border-color: #149c82;
 }
-.visualstrap .navbar-inverse .navbar-nav > .open > a,
-.visualstrap .navbar-inverse .navbar-nav > .open > a:hover,
-.visualstrap .navbar-inverse .navbar-nav > .open > a:focus {
+.visualstrap .navbar-inverse .navbar-nav  .open > a,
+.visualstrap .navbar-inverse .navbar-nav  .open > a:hover,
+.visualstrap .navbar-inverse .navbar-nav  .open > a:focus {
   background-color: #15a589;
   color: #ffffff;
 }
