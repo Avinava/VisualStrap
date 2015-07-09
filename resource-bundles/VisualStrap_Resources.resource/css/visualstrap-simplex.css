@@ -5876,10 +5876,10 @@ button.visualstrap .close {
   border: 0;
   -webkit-appearance: none;
 }
-.visualstrap .modal-open {
+.modal-open {
   overflow: hidden;
 }
-.visualstrap .modal {
+.modal {
   display: none;
   overflow: hidden;
   position: fixed;
@@ -5891,7 +5891,7 @@ button.visualstrap .close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
-.visualstrap .modal.fade .modal-dialog {
+.modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);
   -ms-transform: translate(0, -25%);
   -o-transform: translate(0, -25%);
@@ -5901,22 +5901,22 @@ button.visualstrap .close {
   -o-transition: -o-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
 }
-.visualstrap .modal.in .modal-dialog {
+.modal.in .modal-dialog {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-.visualstrap .modal-open .modal {
+.modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
 }
-.visualstrap .modal-dialog {
+.modal-dialog {
   position: relative;
   width: auto;
   margin: 10px;
 }
-.visualstrap .modal-content {
+.modal-content {
   position: relative;
   background-color: #ffffff;
   border: 1px solid #999999;
@@ -5927,7 +5927,7 @@ button.visualstrap .close {
   background-clip: padding-box;
   outline: 0;
 }
-.visualstrap .modal-backdrop {
+.modal-backdrop {
   position: fixed;
   top: 0;
   right: 0;
@@ -5936,46 +5936,46 @@ button.visualstrap .close {
   z-index: 1040;
   background-color: #000000;
 }
-.visualstrap .modal-backdrop.fade {
+.modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-.visualstrap .modal-backdrop.in {
+.modal-backdrop.in {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
-.visualstrap .modal-header {
+.modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857143px;
 }
-.visualstrap .modal-header .close {
+.modal-header .close {
   margin-top: -2px;
 }
-.visualstrap .modal-title {
+.modal-title {
   margin: 0;
   line-height: 1.42857143;
 }
-.visualstrap .modal-body {
+.modal-body {
   position: relative;
   padding: 20px;
 }
-.visualstrap .modal-footer {
+.modal-footer {
   padding: 20px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
-.visualstrap .modal-footer .btn + .btn {
+.modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
-.visualstrap .modal-footer .btn-group .btn + .btn {
+.modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
-.visualstrap .modal-footer .btn-block + .btn-block {
+.modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
-.visualstrap .modal-scrollbar-measure {
+.modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
   width: 50px;
@@ -5983,20 +5983,20 @@ button.visualstrap .close {
   overflow: scroll;
 }
 @media (min-width: 768px) {
-  .visualstrap .modal-dialog {
+  .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
-  .visualstrap .modal-content {
+  .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
-  .visualstrap .modal-sm {
+  .modal-sm {
     width: 300px;
   }
 }
 @media (min-width: 992px) {
-  .visualstrap .modal-lg {
+  .modal-lg {
     width: 900px;
   }
 }
@@ -6470,52 +6470,52 @@ button.visualstrap .close {
 }
 .visualstrap .clearfix:before,
 .visualstrap .clearfix:after,
-.visualstrap .visualstrap .dl-horizontal dd:before,
-.visualstrap .visualstrap .dl-horizontal dd:after,
-.visualstrap .visualstrap .container:before,
-.visualstrap .visualstrap .container:after,
-.visualstrap .visualstrap .container-fluid:before,
-.visualstrap .visualstrap .container-fluid:after,
-.visualstrap .visualstrap .row:before,
-.visualstrap .visualstrap .row:after,
-.visualstrap .visualstrap .form-horizontal .form-group:before,
-.visualstrap .visualstrap .form-horizontal .form-group:after,
-.visualstrap .visualstrap .btn-toolbar:before,
-.visualstrap .visualstrap .btn-toolbar:after,
-.visualstrap .visualstrap .btn-group-vertical > .btn-group:before,
-.visualstrap .visualstrap .btn-group-vertical > .btn-group:after,
-.visualstrap .visualstrap .nav:before,
-.visualstrap .visualstrap .nav:after,
-.visualstrap .visualstrap .navbar:before,
-.visualstrap .visualstrap .navbar:after,
-.visualstrap .visualstrap .navbar-header:before,
-.visualstrap .visualstrap .navbar-header:after,
-.visualstrap .visualstrap .navbar-collapse:before,
-.visualstrap .visualstrap .navbar-collapse:after,
-.visualstrap .visualstrap .pager:before,
-.visualstrap .visualstrap .pager:after,
-.visualstrap .visualstrap .panel-body:before,
-.visualstrap .visualstrap .panel-body:after,
-.visualstrap .visualstrap .modal-footer:before,
-.visualstrap .visualstrap .modal-footer:after {
+.visualstrap .dl-horizontal dd:before,
+.visualstrap .dl-horizontal dd:after,
+.visualstrap .container:before,
+.visualstrap .container:after,
+.visualstrap .container-fluid:before,
+.visualstrap .container-fluid:after,
+.visualstrap .row:before,
+.visualstrap .row:after,
+.visualstrap .form-horizontal .form-group:before,
+.visualstrap .form-horizontal .form-group:after,
+.visualstrap .btn-toolbar:before,
+.visualstrap .btn-toolbar:after,
+.visualstrap .btn-group-vertical > .btn-group:before,
+.visualstrap .btn-group-vertical > .btn-group:after,
+.visualstrap .nav:before,
+.visualstrap .nav:after,
+.visualstrap .navbar:before,
+.visualstrap .navbar:after,
+.visualstrap .navbar-header:before,
+.visualstrap .navbar-header:after,
+.visualstrap .navbar-collapse:before,
+.visualstrap .navbar-collapse:after,
+.visualstrap .pager:before,
+.visualstrap .pager:after,
+.visualstrap .panel-body:before,
+.visualstrap .panel-body:after,
+.modal-footer:before,
+.modal-footer:after {
   content: " ";
   display: table;
 }
 .visualstrap .clearfix:after,
-.visualstrap .visualstrap .dl-horizontal dd:after,
-.visualstrap .visualstrap .container:after,
-.visualstrap .visualstrap .container-fluid:after,
-.visualstrap .visualstrap .row:after,
-.visualstrap .visualstrap .form-horizontal .form-group:after,
-.visualstrap .visualstrap .btn-toolbar:after,
-.visualstrap .visualstrap .btn-group-vertical > .btn-group:after,
-.visualstrap .visualstrap .nav:after,
-.visualstrap .visualstrap .navbar:after,
-.visualstrap .visualstrap .navbar-header:after,
-.visualstrap .visualstrap .navbar-collapse:after,
-.visualstrap .visualstrap .pager:after,
-.visualstrap .visualstrap .panel-body:after,
-.visualstrap .visualstrap .modal-footer:after {
+.visualstrap .dl-horizontal dd:after,
+.visualstrap .container:after,
+.visualstrap .container-fluid:after,
+.visualstrap .row:after,
+.visualstrap .form-horizontal .form-group:after,
+.visualstrap .btn-toolbar:after,
+.visualstrap .btn-group-vertical > .btn-group:after,
+.visualstrap .nav:after,
+.visualstrap .navbar:after,
+.visualstrap .navbar-header:after,
+.visualstrap .navbar-collapse:after,
+.visualstrap .pager:after,
+.visualstrap .panel-body:after,
+.modal-footer:after {
   clear: both;
 }
 .visualstrap .center-block {
