@@ -7,6 +7,12 @@ VisualStrap
 
 Visualforce Implementation of Bootstrap
 
+### New 10-July-2015
+> add more themes
+ - CSS fixes
+ - fix flatly rendering issue
+ - added new themes 'cosmo','slate','simplex'
+
 ### New 2-July-2015
 > Not dead just yet
 
