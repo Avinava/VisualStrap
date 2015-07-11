@@ -5032,6 +5032,7 @@ a.visualstrap .badge:focus {
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .visualstrap .thumbnail > img,
 .visualstrap .thumbnail a > img {
@@ -5052,6 +5053,7 @@ a.visualstrap .thumbnail.active {
   margin-bottom: 23px;
   border: 1px solid transparent;
   border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .visualstrap .alert h4 {
   margin-top: 0;
@@ -5466,7 +5468,6 @@ button.visualstrap .list-group-item-danger.active:focus {
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 3px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 .visualstrap .panel-body {
@@ -5837,7 +5838,6 @@ button.visualstrap .list-group-item-danger.active:focus {
   background-color: #f9f9f9;
   border: 1px solid transparent;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 .visualstrap .well blockquote {
@@ -5879,7 +5879,6 @@ button.visualstrap .close {
 }
 .visualstrap .navbar {
   border: none;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 .visualstrap .navbar-brand {
@@ -6533,14 +6532,12 @@ button.visualstrap .close {
 }
 .visualstrap .well {
   border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .visualstrap .panel {
   border: none;
   border-radius: 2px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .visualstrap .panel-heading {
   border-bottom: none;
