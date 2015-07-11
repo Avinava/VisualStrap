@@ -7,6 +7,14 @@ VisualStrap
 
 Visualforce Implementation of Bootstrap
 
+
+### New 11-July-2015
+> add more components
+ 
+ - new component ribbon
+ - fix paper theme
+ - add depth classes
+
 ### New 10-July-2015
 > add more themes
 
