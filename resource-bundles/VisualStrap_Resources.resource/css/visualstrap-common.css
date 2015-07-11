@@ -93,3 +93,58 @@
 .depth-5 {
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22); 
 }
+
+.corner-ribbon{
+  width: 250px;
+  background: #e43;
+  position: absolute;
+  top: 40px;
+  left: -55px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  z-index : 9999;
+}
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.top-left{
+  top: 40px;
+  left: -55px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-right{
+  top: 40px;
+  right: -55px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-left{
+  top: auto;
+  bottom: 40px;
+  left: -55px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-right{
+  top: auto;
+  right: -55px;
+  bottom: 40px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.visualstrap .corner-ribbon.alert{
+    padding: 15px;
+    margin-bottom: 0px;
+}
