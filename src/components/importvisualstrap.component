@@ -18,6 +18,13 @@
 			)
 		)
 	}"/>    
+    <style type="text/css">
+        @font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url("{!URLFOR($Resource.VisualStrap_Resources, '/fonts/glyphicons-halflings-regular.eot')}");
+            src: url("{!URLFOR($Resource.VisualStrap_Resources, '/fonts/glyphicons-halflings-regular.eot?#iefix')}") format('embedded-opentype'), url("{!URLFOR($Resource.VisualStrap_Resources, '/fonts/glyphicons-halflings-regular.woff2')}") format('woff2'), url("{!URLFOR($Resource.VisualStrap_Resources, '/fonts/glyphicons-halflings-regular.woff')}") format('woff'), url("{!URLFOR($Resource.VisualStrap_Resources, '/fonts/glyphicons-halflings-regular.ttf')}") format('truetype'), url("{!URLFOR($Resource.VisualStrap_Resources, '/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')}") format('svg');
+        }
+    </style>
     <apex:includeScript value="{!URLFOR($Resource.VisualStrap_Resources, 'js/jquery.min.js')}"/>
     <apex:includeScript value="{!URLFOR($Resource.VisualStrap_Resources, 'js/bootstrap.min.js')}" />
     <apex:stylesheet value="{!URLFOR($Resource.VisualStrap_Resources, 'css/visualstrap'+themeName+'.css')}" />
