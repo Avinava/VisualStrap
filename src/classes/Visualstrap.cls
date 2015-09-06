@@ -1,3 +1,3 @@
-public class Visualstrap{
-    public string htmlid{get;set;}
+global class Visualstrap{
+    global string htmlid{get;set;}
 }
