@@ -7,6 +7,9 @@ VisualStrap
 
 Visualforce Implementation of Bootstrap
 
+### Fixes 18-Feb-2016
+ 
+- Fix rendering issue with glyphs 
 
 ### New 11-July-2015
 > add more components
