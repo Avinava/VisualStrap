@@ -7,13 +7,17 @@ VisualStrap
 
 Visualforce Implementation of Bootstrap
 
+### Fixes 24-Jun-2016
+- minor css Fixes
+- update to api 36.0
+
 ### Fixes 18-Feb-2016
- 
-- Fix rendering issue with glyphs 
+
+- Fix rendering issue with glyphs
 
 ### New 11-July-2015
 > add more components
- 
+
  - new component ribbon
  - fix paper theme
  - add depth classes
@@ -35,10 +39,10 @@ Visualforce Implementation of Bootstrap
 
 ### New 29-Oct-2014
 
-Adding PDF support to render pages as PDF using Visualstrap 
+Adding PDF support to render pages as PDF using Visualstrap
 (set theme as "pdf")
 
-What you get with this version of VisualStrap ? 
+What you get with this version of VisualStrap ?
 -
 
 * Panels
@@ -50,7 +54,7 @@ What you get with this version of VisualStrap ?
 * Forms (Vertical and Horizontal)
 * Glyphicons
 * Thumbnails
-* Column and Row (Grid) 
+* Column and Row (Grid)
 * Tables
 * Buttons (new)
 * ButtonGroup (new)
@@ -86,8 +90,6 @@ Demo / Installation / Documentation
 
 Examples
 -
-Examples can be found here 
+Examples can be found here
 * https://github.com/Avinava/VisualStrap-Examples
 * https://github.com/Avinava/Visualstrap-Salesforce1-VSDashboard
-
-
